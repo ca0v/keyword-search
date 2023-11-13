@@ -63,7 +63,7 @@ function buildIndex(fileContents) {
     const index = {};
     for (let lineNumber = 0; lineNumber < lines.length; lineNumber++) {
         const line = lines[lineNumber];
-        const words = line.split(' ');
+        const words = line.split(' ').map(word => cleanWord(word.toLowerCase()));
         for (let j = 0; j < words.length; j++) {
             const word = words[j].toLowerCase();
             if (!index[word]) {
@@ -115,4 +115,8 @@ function findBestResult(results) {
         }
     }
     return bestLine;
+}
+
+function cleanWord(word) {
+    return word.replace(/[^a-z0-9]/g, '');
 }
