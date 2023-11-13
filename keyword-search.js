@@ -13,13 +13,14 @@ const dataDir = path.join(__dirname, 'data');
 const fileName = 'test2.txt';
 const filePath = path.join(dataDir, fileName);
 const fileContents = fs.readFileSync(filePath, 'utf-8');
+const lines = fileContents.split('\n');
 
 // 2. build a keyword search index
-const index = buildIndex(fileContents);
+const index = buildIndex(lines);
 
 // 3. save the index to a file
 const indexFilePath = path.join(dataDir, `${fileName}.json`);
-fs.writeFileSync(indexFilePath, JSON.stringify(index));
+fs.writeFileSync(indexFilePath, JSON.stringify(index, null, 2));
 
 // 4. read the index from the file
 const indexContents = fs.readFileSync(indexFilePath, 'utf-8');
@@ -30,18 +31,23 @@ const keywords = argv.slice(2);
 
 const thesaurus = buildThesaurus();
 const searchResult = searchIndex(indexFromFile, keywords, thesaurus);
-const bestLine = findBestResult(searchResult);
+const bestLines = findBestResults(searchResult);
 
 // 6. print the results to the console
-if (bestLine) {
-    console.log(bestLine);
-    const lines = fileContents.split('\n');
-    const previousLine = Math.max(1, bestLine - 1);
-    const nextLine = Math.min(lines.length, bestLine + 1);
-    for (let i = previousLine; i <= nextLine; i++) {
-        const line = lines[i - 1];
-        console.log(`${i}: ${line}`);
-    }
+if (bestLines.length) {
+    let nextLine = 0;
+    bestLines.forEach(bestLine => {
+        if (bestLine <= nextLine) return;
+        console.log(bestLine);
+        const previousLine = bestLine;
+        nextLine = Math.min(lines.length, bestLine + 3);
+        for (let i = previousLine; i <= nextLine; i++) {
+            const line = lines[i - 1].trim();
+            if (line.length) {
+                console.log(`${i}: ${line}`);
+            }
+        }
+    });
 } else {
     console.log('No results found');
 }
@@ -58,19 +64,15 @@ function buildThesaurus() {
     return thesaurus;
 }
 
-function buildIndex(fileContents) {
-    const lines = fileContents.split('\n');
+function buildIndex(lines) {
     const index = {};
     for (let lineNumber = 0; lineNumber < lines.length; lineNumber++) {
         const line = lines[lineNumber];
-        const words = line.split(' ').map(word => cleanWord(word.toLowerCase()));
-        for (let j = 0; j < words.length; j++) {
-            const word = words[j].toLowerCase();
-            if (!index[word]) {
-                index[word] = [];
-            }
+        const words = line.split(' ').map(word => singularize(cleanWord(word.toLowerCase())));
+        words.forEach(word => {
+            index[word] = index[word] || [];
             index[word].push(lineNumber + 1);
-        }
+        });
     }
     return index;
 }
@@ -78,7 +80,7 @@ function buildIndex(fileContents) {
 function searchIndex(index, keywords, thesaurus) {
     const results = {};
     for (let i = 0; i < keywords.length; i++) {
-        const keyword = keywords[i].toLowerCase();
+        const keyword = singularize(cleanWord(keywords[i].toLowerCase()));
         const synonyms = (thesaurus[keyword] || []);
         if (!synonyms.length) {
             console.warn(`check spelling of "${keyword}"`);
@@ -104,19 +106,54 @@ function searchIndex(index, keywords, thesaurus) {
     return results;
 }
 
-function findBestResult(results) {
-    let bestResult = 0;
-    let bestLine = 0;
-    for (let line in results) {
-        const count = results[line];
-        if (count > bestResult) {
-            bestResult = count;
-            bestLine = parseInt(line);
-        }
+function findBestResults(results) {
+    const candidates = Object.keys(results).map(v => parseInt(v));
+    const counts = candidates.map(lineNumber => ({ lineNumber, hitCount: results[lineNumber] })).sort((a, b) => b.hitCount - a.hitCount);
+    console.log({ counts });
+    if (!counts.length) {
+        return [];
     }
-    return bestLine;
+
+    let bestResult = counts[0];
+    return counts.filter(c => c.hitCount === bestResult.hitCount).map(c => c.lineNumber).sort((a, b) => a - b);
 }
 
 function cleanWord(word) {
     return word.replace(/[^a-z0-9]/g, '');
+}
+
+function isPlural(word) {
+    return word.endsWith('s');
+}
+
+function pluralize(word) {
+    // if it ends with a consent add es else add s.
+    const lastLetter = word => word[word.length - 1];
+    switch (lastLetter) {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+            return word + 's';
+        case 'y':
+            return word.slice(0, -1) + 'ies';
+        default:
+            return word + 'es';
+    }
+}
+
+function singularize(word) {
+    if (!isPlural(word)) {
+        return word;
+    }
+    if (word.endsWith('ies')) {
+        return word.slice(0, -3) + 'y';
+    } else if (word.endsWith('es')) {
+        return word.slice(0, -2);
+    }
+    else if (word.endsWith('s')) {
+        return word.slice(0, -1);
+    }
+    return word;
 }
