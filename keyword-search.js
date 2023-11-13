@@ -27,7 +27,9 @@ const indexFromFile = JSON.parse(indexContents);
 
 // 5. search the index for a list of keywords
 const keywords = argv.slice(2);
-const searchResult = searchIndex(indexFromFile, keywords);
+
+const thesaurus = buildThesaurus();
+const searchResult = searchIndex(indexFromFile, keywords, thesaurus);
 const bestLine = findBestResult(searchResult);
 
 // 6. print the results to the console
@@ -44,6 +46,18 @@ if (bestLine) {
     console.log('No results found');
 }
 
+function buildThesaurus() {
+    const thesaurusContents = fs.readFileSync(path.join(dataDir, 'thesaurus.txt'), 'utf-8').split('\n');
+    const thesaurus = {};
+    thesaurusContents.forEach(line => {
+        const words = line.split(',');
+        const word = words[0];
+        const synonyms = words.slice(1);
+        thesaurus[word] = synonyms;
+    });
+    return thesaurus;
+}
+
 function buildIndex(fileContents) {
     const lines = fileContents.split('\n');
     const index = {};
@@ -51,7 +65,7 @@ function buildIndex(fileContents) {
         const line = lines[lineNumber];
         const words = line.split(' ');
         for (let j = 0; j < words.length; j++) {
-            const word = words[j].toUpperCase();
+            const word = words[j].toLowerCase();
             if (!index[word]) {
                 index[word] = [];
             }
@@ -61,12 +75,21 @@ function buildIndex(fileContents) {
     return index;
 }
 
-function searchIndex(index, keywords) {
+function searchIndex(index, keywords, thesaurus) {
     const results = {};
     for (let i = 0; i < keywords.length; i++) {
-        const keyword = keywords[i].toUpperCase();
-        const lines = index[keyword];
-        if (lines) {
+        const keyword = keywords[i].toLowerCase();
+        const synonyms = (thesaurus[keyword] || []);
+        if (!synonyms.length) {
+            console.warn(`check spelling of "${keyword}"`);
+        }
+        const words = [keyword, ...synonyms];
+        const word = words.find(word => !!index[word]);
+        if (word) {
+            if (keyword !== word) {
+                console.log(`${keyword} -> ${word}`);
+            }
+            const lines = index[word];
             lines.forEach(line => {
                 if (line > 0) {
                     results[line - 1] = (results[line - 1] || 0) + 1;
