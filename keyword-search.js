@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 const { argv } = require('process');
 const dataDir = path.join(__dirname, 'data');
-const fileName = 'test2.txt';
+const fileName = 'test1.txt';
 const filePath = path.join(dataDir, fileName);
 const fileContents = fs.readFileSync(filePath, 'utf-8');
 const lines = fileContents.split('\n');
@@ -30,7 +30,7 @@ const indexFromFile = JSON.parse(indexContents);
 const keywords = argv.slice(2);
 
 const thesaurus = buildThesaurus();
-const searchResult = searchIndex(indexFromFile, keywords, thesaurus);
+const searchResult = searchIndex(indexFromFile, keywords, {});
 const bestLines = findBestResults(searchResult);
 
 // 6. print the results to the console
@@ -109,7 +109,6 @@ function searchIndex(index, keywords, thesaurus) {
 function findBestResults(results) {
     const candidates = Object.keys(results).map(v => parseInt(v));
     const counts = candidates.map(lineNumber => ({ lineNumber, hitCount: results[lineNumber] })).sort((a, b) => b.hitCount - a.hitCount);
-    console.log({ counts });
     if (!counts.length) {
         return [];
     }
