@@ -1,6 +1,5 @@
 Searching for "How do I compare a Probe Image to another image?"
 
-Keyword not found: makeput
     2049: | FACE Plus ΓÇô Facial Recognition Case Management 74
     2051: Compare
 ->  2052: FACE Plus allows you to compare the probe image to one of the search result images. Hover over and
@@ -16,6 +15,28 @@ Keyword not found: makeput
     2375: If components are installed open the comparison software. (See Installing Facial Recognition
 
 Searching for "How can I find my recent Facial Recognition Sessions?"
+
+      58: Lineup Search Results ......................................................................................................................... 34
+      59: Narrow Search Results ........................................................................................................................ 35
+      60: Reset the Home Screen ...................................................................................................................... 35
+->    61: Find Facial Recognition Session .............................................................................................................. 36
+      62: Facial Recognition Session Search ...................................................................................................... 36
+      63: Session Search Results ........................................................................................................................ 37
+      64: Narrow Search Results ........................................................................................................................ 38
+
+     272: Once you have entered your credentials and clicked the Sign In button, the Home Screen will be
+     273: displayed. Several options are available to you from this screen.  On the Home Screen, users will be able
+     274: to see records, lineups, and sessions displayed in the center of the page. Users will be able to see all
+->   275: records and lineups accessed in the system but only their own facial recognition sessions. Users can
+     276: create, retrieve, or edit records, lineups, or facial recognition sessions via the left sidebar, or directly
+     277: from the appropriate flip card. The left sidebar can also be collapsed to maximize screen space. You may
+     278: also use the breadcrumb trail for easy navigation between pages in the process. Click to reset display to
+
+    1139: | Finding Records, Lineups, or Facial Recognition Sessions 36
+->  1141: Find Facial Recognition Session
+    1142: In addition to perform facial recognition searches, users can also search and retrieve previously-created
+    1143: facial recognition sessions. This allows users to find specific facial recognition sessions by date and
+    1144: description.
 
     1639: FACE Plus ΓÇô Facial Recognition Case Management
     1640: FACE Plus provides accurate, reliable identification with the latest and greatest in facial recognition
@@ -36,7 +57,6 @@ Searching for "What is the difference between Lineups and Investigations?"
 
 Searching for "How do I filter my session results?"
 
-Keyword not found: makeput
     1891: | FACE Plus ΓÇô Facial Recognition Case Management 66
     1893: Data Filter Result Row
 ->  1894: A Data Filter can be applied during the session. Note that a data filter result row will not appear unless a
@@ -45,7 +65,6 @@ Keyword not found: makeput
 
 Searching for "What does Bookmarking an image do?"
 
-Keyword not found: makeput
     1391: | New Lineup or Investigation 44
 ->  1393: Bookmark - Mark Lineup Image as Candidate
     1394: Hover over the image and select Bookmark from the Lineup Hover Menu.
@@ -70,7 +89,6 @@ Searching for "Can I add more than 8 images to a lineup?"
 
 Searching for "Do changes I make in the image editor overwrite the original image?"
 
-Keyword not found: makeput
     3008: eye locations.
     3009: SAVING
     3010: When you are finished working with the image click Save/Close and the changes that you have made to
@@ -81,8 +99,9 @@ Keyword not found: makeput
 
 Searching for "How can I correct the pose of my Mugshot?"
 
-     468: recognition  sessions. Note:  if  you  do  not  have  rights  to  a  particular  category  it  will  be  grayed
-     469: out.
-->   471: ∩é╖ Modify How the Information is Displayed: At the top right of the screen, you can also select the
-     472: type of view for the information displayed such as ΓÇ£Flip Cards,ΓÇ¥ ΓÇ£Details,ΓÇ¥ or ΓÇ£Images.ΓÇ¥
+    2983: Auto-correct Image will automatically correct the image as needed.
+->  2985: Pose Correction allows you to create a 3D model of the face. From the 3D model, you
+    2986: may adjust the 3D model to optimize the pose and lighting of the image, which can then
+    2987: be used to find matching records. For more information, please see ΓÇ¥Pose CorrectionΓÇ¥ on
+    2988: page 106.
 

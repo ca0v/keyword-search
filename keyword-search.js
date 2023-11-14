@@ -25,7 +25,9 @@ function cleanWord(word) {
     word = word.replace(/[^a-z0-9]/g, '');
     word = stemmer[word] || word;
     if (thesaurus[word]) {
+        const priorWord = word;
         word = thesaurus[word].join("+");
+        console.log(`${priorWord} -> ${word}`);
     }
     return word;
 }
@@ -109,7 +111,7 @@ function buildIndex(lines) {
 
 function searchIndex(index, keywords) {
     const results = {};
-    keywords.map(cleanWord).filter(v => !!v && !blacklist.includes(v)).forEach(keyword => {
+    keywords.forEach(keyword => {
         if (keyword) {
             const lines = index[keyword];
             if (!lines) {
