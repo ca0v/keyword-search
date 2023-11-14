@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import nltk
 
 #nltk.download('words')
@@ -5,12 +7,13 @@ import nltk
 from nltk.stem import PorterStemmer
 from nltk.corpus import words
 
+fileName = "test1.txt"
 
 # Initialize stemmer
 stemmer = PorterStemmer()
 
 # Get words in the source document at ../data/test2.txt
-with open('../data/test2.txt') as f:
+with open('../data/' + fileName) as f:
     source_words = f.read().split()
     # use a regex to keep only letters and numbers
     source_words = [word.lower() for word in source_words if word.isalnum()]

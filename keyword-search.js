@@ -1,4 +1,4 @@
-const fileName = 'test2.txt';
+const fileName = 'test1.txt';
 
 // 1. read the test1.txt file in the data folder
 // 2. build a keyword search index
@@ -20,20 +20,25 @@ const stemmer = buildStemmer();
 // const thesaurus = buildThesaurus();
 const blacklist = ["the", "i", "a", "an", "and", "or"];
 
-// 2. build a keyword search index
-const index = buildIndex(lines, { stemmer });
-
-// 3. save the index to a file
+// does indexFilePath exist?
 const indexFilePath = path.join(dataDir, `${fileName}.json`);
-fs.writeFileSync(indexFilePath, JSON.stringify(index, null, 2));
+if (!fs.existsSync(indexFilePath)) {
+
+    // 2. build a keyword search index
+    const index = buildIndex(lines, { stemmer });
+
+    // 3. save the index to a file
+    fs.writeFileSync(indexFilePath, JSON.stringify(index, null, 2));
+}
 
 // 4. read the index from the file
 const indexContents = fs.readFileSync(indexFilePath, 'utf-8');
 const indexFromFile = JSON.parse(indexContents);
 
 // 5. search the index for a list of keywords
-const keywords = argv.slice(2).map(v => cleanWord(v.toLowerCase())).map(v => stemmer[v] || v).filter(v => !blacklist.includes(v));
-console.log(`Searching for ${keywords.join(', ')}`);
+const searchPhrase = argv.slice(2);
+const keywords = searchPhrase.map(v => cleanWord(v.toLowerCase())).map(v => stemmer[v] || v).filter(v => !blacklist.includes(v));
+console.log(`Searching for "${searchPhrase.join(' ')}"`);
 
 const searchResult = searchIndex(indexFromFile, keywords, { stemmer });
 const bestLines = findBestResults(searchResult);
@@ -45,13 +50,13 @@ if (bestLines.length) {
         const previousLine = Math.max(nextLine + 1, bestLine - 3);
         nextLine = Math.min(lines.length, bestLine + 3);
         for (let i = previousLine; i <= nextLine; i++) {
+            const lineNumber = i.toString().padStart(6, ' ');
             const line = lines[i - 1].trim();
             if (line.length) {
                 if (i === bestLine) {
-                    // change the console color
-                    console.log('\x1b[36m%s\x1b[0m', `  ${i}: ${line}`);
+                    console.log(`->${lineNumber}: ${line}`);
                 } else {
-                    console.log(`  ${i}: ${line}`);
+                    console.log(`  ${lineNumber}: ${line}`);
                 }
             }
         }
@@ -111,7 +116,7 @@ function searchIndex(index, keywords, options = {}) {
         if (word) {
             const lines = index[word];
             if (!lines) {
-                console.error(`No results found for ${keyword}`);
+                console.log(`No results found for ${keyword}`);
                 return;
             }
             lines.forEach(line => {
