@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
+import re
 import sys
-import nltk
+#import nltk
 
 #nltk.download('words')
 
@@ -20,8 +21,10 @@ stemmer = PorterStemmer()
 # Get words in the source document at ../data/test2.txt
 with open(fileName) as f:
     source_words = f.read().split()
+    # convert to lower case
+    source_words = [word.lower() for word in source_words]
     # use a regex to keep only letters and numbers
-    source_words = [word.lower() for word in source_words if word.isalnum()]
+    source_words = [re.sub(r'[^a-z0-9]', '', word) for word in source_words]
     
 # english_words = words.words()[:2000]
 # Create a sorted version removing duplicates
