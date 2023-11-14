@@ -17,15 +17,26 @@ const fileContents = fs.readFileSync(filePath, 'utf-8');
 
 const lines = fileContents.split('\n');
 const stemmer = buildStemmer();
-// const thesaurus = buildThesaurus();
+const thesaurus = buildThesaurus();
 const blacklist = ["the", "i", "a", "an", "and", "or"];
+
+function cleanWord(word) {
+    word = word.toLowerCase();
+    word = word.replace(/[^a-z0-9]/g, '');
+    word = stemmer[word] || word;
+    if (thesaurus[word]) {
+        word = thesaurus[word].join("+");
+    }
+    return word;
+}
+
 
 // does indexFilePath exist?
 const indexFilePath = path.join(dataDir, `${fileName}.json`);
 if (!fs.existsSync(indexFilePath)) {
 
     // 2. build a keyword search index
-    const index = buildIndex(lines, { stemmer });
+    const index = buildIndex(lines);
 
     // 3. save the index to a file
     fs.writeFileSync(indexFilePath, JSON.stringify(index, null, 2));
@@ -37,11 +48,11 @@ const indexFromFile = JSON.parse(indexContents);
 
 // 5. search the index for a list of keywords
 const searchPhrase = argv.slice(2);
-const keywords = searchPhrase.map(v => cleanWord(v.toLowerCase())).map(v => stemmer[v] || v).filter(v => !blacklist.includes(v));
+const keywords = searchPhrase.map(cleanWord).filter(v => !blacklist.includes(v));
 console.log(`Searching for "${searchPhrase.join(' ')}"`);
 console.log();
 
-const searchResult = searchIndex(indexFromFile, keywords, { stemmer });
+const searchResult = searchIndex(indexFromFile, keywords);
 const bestLines = findBestResults(searchResult);
 
 // 6. print the results to the console
@@ -78,29 +89,16 @@ function buildStemmer() {
 
 }
 function buildThesaurus() {
-    const thesaurusContents = fs.readFileSync(path.join(dataDir, 'thesaurus.txt'), 'utf-8').split('\n');
-    const thesaurus = {};
-    thesaurusContents.forEach(line => {
-        const words = line.split(',');
-        const word = words[0];
-        const synonyms = words.slice(1);
-        thesaurus[word] = synonyms;
-    });
-    return thesaurus;
+    const thesaurusContents = fs.readFileSync(path.join(dataDir, 'reverse-thesaurus.json'), 'utf-8');
+    return JSON.parse(thesaurusContents);
 }
 
-function buildIndex(lines, options = {}) {
+function buildIndex(lines) {
     const index = {};
-    const { stemmer } = options;
     for (let lineNumber = 0; lineNumber < lines.length; lineNumber++) {
         const line = lines[lineNumber];
         const words = new Set();
-        line.split(' ').forEach(word => {
-            word = word.toLowerCase();
-            word = cleanWord(word);
-            word = stemmer ? stemmer[word] || word : word;
-            words.add(word);
-        });
+        line.split(' ').forEach(word => words.add(cleanWord(word)));
         words.forEach(word => {
             index[word] = index[word] || [];
             index[word].push(lineNumber + 1);
@@ -109,13 +107,11 @@ function buildIndex(lines, options = {}) {
     return index;
 }
 
-function searchIndex(index, keywords, options = {}) {
+function searchIndex(index, keywords) {
     const results = {};
-    const { stemmer } = options;
-    keywords.map(k => cleanWord(k.toLowerCase())).filter(v => !!v && !blacklist.includes(v)).forEach(keyword => {
-        const word = stemmer ? stemmer[keyword] || keyword : keyword;
-        if (word) {
-            const lines = index[word];
+    keywords.map(cleanWord).filter(v => !!v && !blacklist.includes(v)).forEach(keyword => {
+        if (keyword) {
+            const lines = index[keyword];
             if (!lines) {
                 console.log(`Keyword not found: ${keyword}`);
                 return;
@@ -145,42 +141,3 @@ function findBestResults(results) {
     return counts.filter(c => c.hitCount === bestResult.hitCount).map(c => c.lineNumber).sort((a, b) => a - b);
 }
 
-function cleanWord(word) {
-    return word.replace(/[^a-z0-9]/g, '');
-}
-
-function isPlural(word) {
-    return word.endsWith('s');
-}
-
-function pluralize(word) {
-    // if it ends with a consent add es else add s.
-    const lastLetter = word => word[word.length - 1];
-    switch (lastLetter) {
-        case 'a':
-        case 'e':
-        case 'i':
-        case 'o':
-        case 'u':
-            return word + 's';
-        case 'y':
-            return word.slice(0, -1) + 'ies';
-        default:
-            return word + 'es';
-    }
-}
-
-function singularize(word) {
-    if (!isPlural(word)) {
-        return word;
-    }
-    if (word.endsWith('ies')) {
-        return word.slice(0, -3) + 'y';
-    } else if (word.endsWith('es')) {
-        return word.slice(0, -2);
-    }
-    else if (word.endsWith('s')) {
-        return word.slice(0, -1);
-    }
-    return word;
-}

@@ -1,0 +1,3719 @@
+{
+  "incredible": [
+    "amazing"
+  ],
+  "unbelievable": [
+    "amazing"
+  ],
+  "improbable": [
+    "amazing"
+  ],
+  "fabulous": [
+    "amazing"
+  ],
+  "wonderful": [
+    "amazing",
+    "good"
+  ],
+  "fantastic": [
+    "amazing"
+  ],
+  "astonishing": [
+    "amazing"
+  ],
+  "astounding": [
+    "amazing"
+  ],
+  "extraordinary": [
+    "amazing"
+  ],
+  "enrage": [
+    "anger"
+  ],
+  "infuriate": [
+    "anger"
+  ],
+  "arouse": [
+    "anger"
+  ],
+  "nettle": [
+    "anger"
+  ],
+  "exasperate": [
+    "anger"
+  ],
+  "inflame": [
+    "anger"
+  ],
+  "madden": [
+    "anger"
+  ],
+  "mad": [
+    "angry"
+  ],
+  "furious": [
+    "angry"
+  ],
+  "enraged": [
+    "angry"
+  ],
+  "excited": [
+    "angry"
+  ],
+  "wrathful": [
+    "angry"
+  ],
+  "indignant": [
+    "angry"
+  ],
+  "exasperated": [
+    "angry"
+  ],
+  "aroused": [
+    "angry"
+  ],
+  "inflamed": [
+    "angry"
+  ],
+  "reply": [
+    "answer"
+  ],
+  "respond": [
+    "answer"
+  ],
+  "retort": [
+    "answer"
+  ],
+  "acknowledge": [
+    "answer"
+  ],
+  "question": [
+    "ask"
+  ],
+  "inquire of": [
+    "ask"
+  ],
+  "seek information from": [
+    "ask"
+  ],
+  "put a question to": [
+    "ask"
+  ],
+  "demand": [
+    "ask"
+  ],
+  "request": [
+    "ask"
+  ],
+  "expect": [
+    "ask"
+  ],
+  "inquire": [
+    "ask"
+  ],
+  "query": [
+    "ask"
+  ],
+  "interrogate": [
+    "ask"
+  ],
+  "examine": [
+    "ask",
+    "look"
+  ],
+  "quiz": [
+    "ask"
+  ],
+  "dreadful": [
+    "awful"
+  ],
+  "terrible": [
+    "awful"
+  ],
+  "abominable": [
+    "awful"
+  ],
+  "bad": [
+    "awful"
+  ],
+  "poor": [
+    "awful",
+    "unhappy"
+  ],
+  "unpleasant": [
+    "awful",
+    "bad",
+    "ugly"
+  ],
+  "evil": [
+    "bad",
+    "ugly"
+  ],
+  "immoral": [
+    "bad"
+  ],
+  "wicked": [
+    "bad"
+  ],
+  "corrupt": [
+    "bad"
+  ],
+  "sinful": [
+    "bad"
+  ],
+  "depraved": [
+    "bad"
+  ],
+  "rotten": [
+    "bad"
+  ],
+  "contaminated": [
+    "bad"
+  ],
+  "spoiled": [
+    "bad"
+  ],
+  "tainted": [
+    "bad"
+  ],
+  "harmful": [
+    "bad"
+  ],
+  "injurious": [
+    "bad"
+  ],
+  "unfavorable": [
+    "bad"
+  ],
+  "defective": [
+    "bad"
+  ],
+  "inferior": [
+    "bad"
+  ],
+  "imperfect": [
+    "bad"
+  ],
+  "substandard": [
+    "bad"
+  ],
+  "faulty": [
+    "bad"
+  ],
+  "improper": [
+    "bad",
+    "gross",
+    "wrong"
+  ],
+  "inappropriate": [
+    "bad"
+  ],
+  "unsuitable": [
+    "bad",
+    "wrong"
+  ],
+  "disagreeable": [
+    "bad"
+  ],
+  "cross": [
+    "bad"
+  ],
+  "nasty": [
+    "bad"
+  ],
+  "unfriendly": [
+    "bad"
+  ],
+  "irascible": [
+    "bad"
+  ],
+  "horrible": [
+    "bad",
+    "ugly"
+  ],
+  "atrocious": [
+    "bad"
+  ],
+  "outrageous": [
+    "bad",
+    "gross"
+  ],
+  "scandalous": [
+    "bad"
+  ],
+  "infamous": [
+    "bad"
+  ],
+  "wrong": [
+    "bad"
+  ],
+  "noxious": [
+    "bad"
+  ],
+  "sinister": [
+    "bad"
+  ],
+  "putrid": [
+    "bad"
+  ],
+  "snide": [
+    "bad"
+  ],
+  "deplorable": [
+    "bad"
+  ],
+  "dismal": [
+    "bad",
+    "dark",
+    "unhappy"
+  ],
+  "gross": [
+    "bad",
+    "ugly"
+  ],
+  "heinous": [
+    "bad"
+  ],
+  "nefarious": [
+    "bad"
+  ],
+  "base": [
+    "bad"
+  ],
+  "obnoxious": [
+    "bad"
+  ],
+  "detestable": [
+    "bad"
+  ],
+  "despicable": [
+    "bad"
+  ],
+  "contemptible": [
+    "bad"
+  ],
+  "foul": [
+    "bad"
+  ],
+  "rank": [
+    "bad"
+  ],
+  "ghastly": [
+    "bad",
+    "ugly"
+  ],
+  "execrable": [
+    "bad"
+  ],
+  "pretty": [
+    "beautiful"
+  ],
+  "lovely": [
+    "beautiful"
+  ],
+  "handsome": [
+    "beautiful"
+  ],
+  "attractive": [
+    "beautiful",
+    "interesting"
+  ],
+  "gorgeous": [
+    "beautiful"
+  ],
+  "dazzling": [
+    "beautiful"
+  ],
+  "splendid": [
+    "beautiful",
+    "good"
+  ],
+  "magnificent": [
+    "beautiful"
+  ],
+  "comely": [
+    "beautiful"
+  ],
+  "fair": [
+    "beautiful",
+    "right"
+  ],
+  "ravishing": [
+    "beautiful"
+  ],
+  "graceful": [
+    "beautiful"
+  ],
+  "elegant": [
+    "beautiful",
+    "neat"
+  ],
+  "fine": [
+    "beautiful",
+    "good"
+  ],
+  "exquisite": [
+    "beautiful",
+    "delicious"
+  ],
+  "aesthetic": [
+    "beautiful"
+  ],
+  "pleasing": [
+    "beautiful"
+  ],
+  "shapely": [
+    "beautiful",
+    "neat"
+  ],
+  "delicate": [
+    "beautiful"
+  ],
+  "stunning": [
+    "beautiful"
+  ],
+  "glorious": [
+    "beautiful"
+  ],
+  "heavenly": [
+    "beautiful"
+  ],
+  "resplendent": [
+    "beautiful"
+  ],
+  "radiant": [
+    "beautiful",
+    "bright"
+  ],
+  "glowing": [
+    "beautiful"
+  ],
+  "blooming": [
+    "beautiful"
+  ],
+  "sparkling": [
+    "beautiful",
+    "bright"
+  ],
+  "start": [
+    "begin"
+  ],
+  "open": [
+    "begin"
+  ],
+  "launch": [
+    "begin"
+  ],
+  "initiate": [
+    "begin"
+  ],
+  "commence": [
+    "begin"
+  ],
+  "inaugurate": [
+    "begin"
+  ],
+  "originate": [
+    "begin",
+    "make"
+  ],
+  "enormous": [
+    "big"
+  ],
+  "huge": [
+    "big"
+  ],
+  "immense": [
+    "big"
+  ],
+  "gigantic": [
+    "big"
+  ],
+  "vast": [
+    "big"
+  ],
+  "colossal": [
+    "big"
+  ],
+  "gargantuan": [
+    "big"
+  ],
+  "large": [
+    "big"
+  ],
+  "sizable": [
+    "big"
+  ],
+  "grand": [
+    "big",
+    "good",
+    "great"
+  ],
+  "great": [
+    "big",
+    "good"
+  ],
+  "tall": [
+    "big"
+  ],
+  "substantial": [
+    "big"
+  ],
+  "mammoth": [
+    "big"
+  ],
+  "astronomical": [
+    "big"
+  ],
+  "ample": [
+    "big",
+    "good"
+  ],
+  "broad": [
+    "big"
+  ],
+  "expansive": [
+    "big"
+  ],
+  "spacious": [
+    "big"
+  ],
+  "stout": [
+    "big",
+    "fat"
+  ],
+  "tremendous": [
+    "big"
+  ],
+  "titanic": [
+    "big"
+  ],
+  "mountainous": [
+    "big"
+  ],
+  "courageous": [
+    "brave"
+  ],
+  "fearless": [
+    "brave"
+  ],
+  "dauntless": [
+    "brave"
+  ],
+  "intrepid": [
+    "brave"
+  ],
+  "plucky": [
+    "brave"
+  ],
+  "daring": [
+    "brave"
+  ],
+  "heroic": [
+    "brave"
+  ],
+  "valorous": [
+    "brave"
+  ],
+  "audacious": [
+    "brave"
+  ],
+  "bold": [
+    "brave"
+  ],
+  "gallant": [
+    "brave"
+  ],
+  "valiant": [
+    "brave"
+  ],
+  "doughty": [
+    "brave"
+  ],
+  "mettlesome": [
+    "brave"
+  ],
+  "fracture": [
+    "break"
+  ],
+  "rupture": [
+    "break"
+  ],
+  "shatter": [
+    "break"
+  ],
+  "smash": [
+    "break"
+  ],
+  "wreck": [
+    "break"
+  ],
+  "crash": [
+    "break"
+  ],
+  "demolish": [
+    "break",
+    "destroy"
+  ],
+  "atomize": [
+    "break"
+  ],
+  "shining": [
+    "bright"
+  ],
+  "shiny": [
+    "bright"
+  ],
+  "gleaming": [
+    "bright"
+  ],
+  "brilliant": [
+    "bright"
+  ],
+  "shimmering": [
+    "bright"
+  ],
+  "vivid": [
+    "bright"
+  ],
+  "colorful": [
+    "bright"
+  ],
+  "lustrous": [
+    "bright"
+  ],
+  "luminous": [
+    "bright"
+  ],
+  "incandescent": [
+    "bright"
+  ],
+  "intelligent": [
+    "bright",
+    "interesting"
+  ],
+  "knowing": [
+    "bright"
+  ],
+  "quick-witted": [
+    "bright"
+  ],
+  "smart": [
+    "bright",
+    "neat"
+  ],
+  "intellectual": [
+    "bright"
+  ],
+  "quiet": [
+    "calm"
+  ],
+  "peaceful": [
+    "calm",
+    "quiet"
+  ],
+  "still": [
+    "calm",
+    "quiet"
+  ],
+  "tranquil": [
+    "calm",
+    "quiet"
+  ],
+  "mild": [
+    "calm"
+  ],
+  "serene": [
+    "calm"
+  ],
+  "smooth": [
+    "calm"
+  ],
+  "composed": [
+    "calm"
+  ],
+  "collected": [
+    "calm"
+  ],
+  "unruffled": [
+    "calm"
+  ],
+  "level-headed": [
+    "calm"
+  ],
+  "unexcited": [
+    "calm"
+  ],
+  "detached": [
+    "calm"
+  ],
+  "aloof": [
+    "calm"
+  ],
+  "approach": [
+    "come"
+  ],
+  "advance": [
+    "come"
+  ],
+  "near": [
+    "come"
+  ],
+  "arrive": [
+    "come"
+  ],
+  "reach": [
+    "come"
+  ],
+  "chilly": [
+    "cool"
+  ],
+  "cold": [
+    "cool"
+  ],
+  "frosty": [
+    "cool"
+  ],
+  "wintry": [
+    "cool"
+  ],
+  "icy": [
+    "cool"
+  ],
+  "frigid": [
+    "cool"
+  ],
+  "bent": [
+    "crooked"
+  ],
+  "twisted": [
+    "crooked"
+  ],
+  "curved": [
+    "crooked"
+  ],
+  "hooked": [
+    "crooked"
+  ],
+  "zigzag": [
+    "crooked"
+  ],
+  "shout": [
+    "cry"
+  ],
+  "yell": [
+    "cry",
+    "say/tell"
+  ],
+  "yowl": [
+    "cry"
+  ],
+  "scream": [
+    "cry",
+    "say/tell"
+  ],
+  "roar": [
+    "cry",
+    "say/tell"
+  ],
+  "bellow": [
+    "cry",
+    "say/tell"
+  ],
+  "weep": [
+    "cry"
+  ],
+  "wail": [
+    "cry"
+  ],
+  "sob": [
+    "cry"
+  ],
+  "bawl": [
+    "cry"
+  ],
+  "gash": [
+    "cut"
+  ],
+  "slash": [
+    "cut"
+  ],
+  "prick": [
+    "cut"
+  ],
+  "nick": [
+    "cut"
+  ],
+  "sever": [
+    "cut"
+  ],
+  "slice": [
+    "cut"
+  ],
+  "carve": [
+    "cut"
+  ],
+  "cleave": [
+    "cut"
+  ],
+  "slit": [
+    "cut"
+  ],
+  "chop": [
+    "cut"
+  ],
+  "crop": [
+    "cut"
+  ],
+  "lop": [
+    "cut"
+  ],
+  "reduce": [
+    "cut"
+  ],
+  "perilous": [
+    "dangerous"
+  ],
+  "hazardous": [
+    "dangerous"
+  ],
+  "risky": [
+    "dangerous"
+  ],
+  "uncertain": [
+    "dangerous"
+  ],
+  "unsafe": [
+    "dangerous"
+  ],
+  "shadowy": [
+    "dark"
+  ],
+  "unlit": [
+    "dark"
+  ],
+  "murky": [
+    "dark"
+  ],
+  "gloomy": [
+    "dark",
+    "unhappy"
+  ],
+  "dim": [
+    "dark"
+  ],
+  "dusky": [
+    "dark"
+  ],
+  "shaded": [
+    "dark"
+  ],
+  "sunless": [
+    "dark"
+  ],
+  "black": [
+    "dark"
+  ],
+  "sad": [
+    "dark",
+    "unhappy"
+  ],
+  "determine": [
+    "decide"
+  ],
+  "settle": [
+    "decide"
+  ],
+  "choose": [
+    "decide",
+    "take"
+  ],
+  "resolve": [
+    "decide"
+  ],
+  "certain": [
+    "definite"
+  ],
+  "sure": [
+    "definite"
+  ],
+  "positive": [
+    "definite"
+  ],
+  "determined": [
+    "definite"
+  ],
+  "clear": [
+    "definite"
+  ],
+  "distinct": [
+    "definite"
+  ],
+  "obvious": [
+    "definite"
+  ],
+  "savory": [
+    "delicious"
+  ],
+  "delectable": [
+    "delicious"
+  ],
+  "appetizing": [
+    "delicious"
+  ],
+  "luscious": [
+    "delicious"
+  ],
+  "scrumptious": [
+    "delicious"
+  ],
+  "palatable": [
+    "delicious"
+  ],
+  "delightful": [
+    "delicious"
+  ],
+  "enjoyable": [
+    "delicious"
+  ],
+  "toothsome": [
+    "delicious"
+  ],
+  "portray": [
+    "describe"
+  ],
+  "characterize": [
+    "describe"
+  ],
+  "picture": [
+    "describe"
+  ],
+  "narrate": [
+    "describe",
+    "say/tell",
+    "tell"
+  ],
+  "relate": [
+    "describe",
+    "say/tell",
+    "tell"
+  ],
+  "recount": [
+    "describe",
+    "say/tell",
+    "tell"
+  ],
+  "represent": [
+    "describe"
+  ],
+  "report": [
+    "describe"
+  ],
+  "record": [
+    "describe",
+    "story"
+  ],
+  "ruin": [
+    "destroy"
+  ],
+  "raze": [
+    "destroy"
+  ],
+  "waste": [
+    "destroy"
+  ],
+  "kill": [
+    "destroy"
+  ],
+  "slay": [
+    "destroy",
+    "kill"
+  ],
+  "end": [
+    "destroy",
+    "stop"
+  ],
+  "extinguish": [
+    "destroy"
+  ],
+  "disagreement": [
+    "difference"
+  ],
+  "inequity": [
+    "difference"
+  ],
+  "contrast": [
+    "difference"
+  ],
+  "dissimilarity": [
+    "difference"
+  ],
+  "incompatibility": [
+    "difference"
+  ],
+  "execute": [
+    "do",
+    "kill",
+    "make"
+  ],
+  "enact": [
+    "do"
+  ],
+  "carry out": [
+    "do"
+  ],
+  "finish": [
+    "do",
+    "end",
+    "stop"
+  ],
+  "conclude": [
+    "do",
+    "end",
+    "stop"
+  ],
+  "effect": [
+    "do",
+    "make",
+    "mark",
+    "put"
+  ],
+  "accomplish": [
+    "do",
+    "make"
+  ],
+  "achieve": [
+    "do",
+    "put"
+  ],
+  "attain": [
+    "do"
+  ],
+  "boring": [
+    "dull"
+  ],
+  "tiring„ tiresome": [
+    "dull"
+  ],
+  "uninteresting": [
+    "dull"
+  ],
+  "slow": [
+    "dull"
+  ],
+  "dumb": [
+    "dull"
+  ],
+  "stupid": [
+    "dull"
+  ],
+  "unimaginative": [
+    "dull"
+  ],
+  "lifeless": [
+    "dull"
+  ],
+  "dead": [
+    "dull"
+  ],
+  "insensible": [
+    "dull"
+  ],
+  "tedious": [
+    "dull",
+    "slow"
+  ],
+  "wearisome": [
+    "dull"
+  ],
+  "listless": [
+    "dull"
+  ],
+  "expressionless": [
+    "dull"
+  ],
+  "plain": [
+    "dull",
+    "ugly"
+  ],
+  "monotonous": [
+    "dull"
+  ],
+  "humdrum": [
+    "dull"
+  ],
+  "dreary": [
+    "dull"
+  ],
+  "keen": [
+    "eager",
+    "interesting"
+  ],
+  "fervent": [
+    "eager"
+  ],
+  "enthusiastic": [
+    "eager"
+  ],
+  "involved": [
+    "eager"
+  ],
+  "interested": [
+    "eager"
+  ],
+  "alive to": [
+    "eager"
+  ],
+  "stop": [
+    "end"
+  ],
+  "terminate": [
+    "end"
+  ],
+  "close": [
+    "end"
+  ],
+  "halt": [
+    "end",
+    "stop"
+  ],
+  "cessation": [
+    "end"
+  ],
+  "discontinuance": [
+    "end"
+  ],
+  "appreciate": [
+    "enjoy",
+    "love"
+  ],
+  "delight in": [
+    "enjoy"
+  ],
+  "be pleased": [
+    "enjoy"
+  ],
+  "indulge in": [
+    "enjoy"
+  ],
+  "luxuriate in": [
+    "enjoy"
+  ],
+  "bask in": [
+    "enjoy"
+  ],
+  "relish": [
+    "enjoy"
+  ],
+  "devour": [
+    "enjoy"
+  ],
+  "savor": [
+    "enjoy",
+    "love"
+  ],
+  "like": [
+    "enjoy",
+    "love"
+  ],
+  "elaborate": [
+    "explain"
+  ],
+  "clarify": [
+    "explain"
+  ],
+  "define": [
+    "explain"
+  ],
+  "interpret": [
+    "explain"
+  ],
+  "justify": [
+    "explain"
+  ],
+  "account for": [
+    "explain"
+  ],
+  "just": [
+    "fair",
+    "right"
+  ],
+  "impartial": [
+    "fair"
+  ],
+  "unbiased": [
+    "fair"
+  ],
+  "objective": [
+    "fair"
+  ],
+  "unprejudiced": [
+    "fair"
+  ],
+  "honest": [
+    "fair",
+    "right"
+  ],
+  "drop": [
+    "fall"
+  ],
+  "descend": [
+    "fall"
+  ],
+  "plunge": [
+    "fall"
+  ],
+  "topple": [
+    "fall"
+  ],
+  "tumble": [
+    "fall"
+  ],
+  "fake": [
+    "false"
+  ],
+  "fraudulent": [
+    "false"
+  ],
+  "counterfeit": [
+    "false"
+  ],
+  "spurious": [
+    "false"
+  ],
+  "untrue": [
+    "false"
+  ],
+  "unfounded": [
+    "false"
+  ],
+  "erroneous": [
+    "false",
+    "wrong"
+  ],
+  "deceptive": [
+    "false"
+  ],
+  "groundless": [
+    "false"
+  ],
+  "fallacious": [
+    "false"
+  ],
+  "well-known": [
+    "famous",
+    "important"
+  ],
+  "renowned": [
+    "famous"
+  ],
+  "celebrated": [
+    "famous",
+    "popular"
+  ],
+  "famed": [
+    "famous"
+  ],
+  "eminent": [
+    "famous"
+  ],
+  "illustrious": [
+    "famous"
+  ],
+  "distinguished": [
+    "famous",
+    "great",
+    "important"
+  ],
+  "noted": [
+    "famous"
+  ],
+  "notorious": [
+    "famous"
+  ],
+  "quick": [
+    "fast"
+  ],
+  "rapid": [
+    "fast"
+  ],
+  "speedy": [
+    "fast"
+  ],
+  "fleet": [
+    "fast"
+  ],
+  "hasty": [
+    "fast"
+  ],
+  "snappy": [
+    "fast"
+  ],
+  "mercurial": [
+    "fast"
+  ],
+  "swiftly": [
+    "fast"
+  ],
+  "rapidly": [
+    "fast"
+  ],
+  "quickly": [
+    "fast"
+  ],
+  "snappily": [
+    "fast"
+  ],
+  "speedily": [
+    "fast"
+  ],
+  "lickety-split": [
+    "fast"
+  ],
+  "posthaste": [
+    "fast"
+  ],
+  "hastily": [
+    "fast"
+  ],
+  "expeditiously": [
+    "fast"
+  ],
+  "like a flash": [
+    "fast"
+  ],
+  "corpulent": [
+    "fat"
+  ],
+  "fleshy": [
+    "fat"
+  ],
+  "beefy": [
+    "fat"
+  ],
+  "paunchy": [
+    "fat"
+  ],
+  "plump": [
+    "fat"
+  ],
+  "full": [
+    "fat"
+  ],
+  "rotund": [
+    "fat"
+  ],
+  "tubby": [
+    "fat"
+  ],
+  "pudgy": [
+    "fat"
+  ],
+  "chubby": [
+    "fat"
+  ],
+  "chunky": [
+    "fat"
+  ],
+  "burly": [
+    "fat"
+  ],
+  "bulky": [
+    "fat"
+  ],
+  "elephantine": [
+    "fat"
+  ],
+  "fright": [
+    "fear"
+  ],
+  "dread": [
+    "fear"
+  ],
+  "terror": [
+    "fear"
+  ],
+  "alarm": [
+    "fear"
+  ],
+  "dismay": [
+    "fear"
+  ],
+  "anxiety": [
+    "fear",
+    "trouble"
+  ],
+  "scare": [
+    "fear"
+  ],
+  "awe": [
+    "fear"
+  ],
+  "horror": [
+    "fear"
+  ],
+  "panic": [
+    "fear"
+  ],
+  "apprehension": [
+    "fear"
+  ],
+  "soar": [
+    "fly"
+  ],
+  "hover": [
+    "fly"
+  ],
+  "flit": [
+    "fly"
+  ],
+  "wing": [
+    "fly"
+  ],
+  "flee": [
+    "fly",
+    "run"
+  ],
+  "waft": [
+    "fly"
+  ],
+  "glide": [
+    "fly",
+    "move"
+  ],
+  "coast": [
+    "fly",
+    "move"
+  ],
+  "skim": [
+    "fly"
+  ],
+  "sail": [
+    "fly",
+    "move"
+  ],
+  "cruise": [
+    "fly"
+  ],
+  "humorous": [
+    "funny"
+  ],
+  "amusing": [
+    "funny"
+  ],
+  "droll": [
+    "funny"
+  ],
+  "comic": [
+    "funny"
+  ],
+  "comical": [
+    "funny"
+  ],
+  "laughable": [
+    "funny"
+  ],
+  "silly": [
+    "funny"
+  ],
+  "acquire": [
+    "get",
+    "have",
+    "make",
+    "take"
+  ],
+  "obtain": [
+    "get",
+    "make"
+  ],
+  "secure": [
+    "get"
+  ],
+  "procure": [
+    "get"
+  ],
+  "gain": [
+    "get",
+    "have",
+    "make"
+  ],
+  "fetch": [
+    "get"
+  ],
+  "find": [
+    "get"
+  ],
+  "score": [
+    "get"
+  ],
+  "accumulate": [
+    "get"
+  ],
+  "win": [
+    "get",
+    "take"
+  ],
+  "earn": [
+    "get",
+    "make"
+  ],
+  "rep": [
+    "get"
+  ],
+  "catch": [
+    "get",
+    "take"
+  ],
+  "net": [
+    "get"
+  ],
+  "bag": [
+    "get"
+  ],
+  "derive": [
+    "get"
+  ],
+  "collect": [
+    "get"
+  ],
+  "gather": [
+    "get"
+  ],
+  "glean": [
+    "get"
+  ],
+  "pick up": [
+    "get"
+  ],
+  "accept": [
+    "get"
+  ],
+  "come by": [
+    "get"
+  ],
+  "regain": [
+    "get"
+  ],
+  "salvage": [
+    "get"
+  ],
+  "recede": [
+    "go"
+  ],
+  "depart": [
+    "go"
+  ],
+  "fade": [
+    "go"
+  ],
+  "disappear": [
+    "go"
+  ],
+  "move": [
+    "go"
+  ],
+  "travel": [
+    "go",
+    "move"
+  ],
+  "proceed": [
+    "go"
+  ],
+  "excellent": [
+    "good"
+  ],
+  "superior": [
+    "good"
+  ],
+  "marvelous": [
+    "good"
+  ],
+  "qualified": [
+    "good"
+  ],
+  "suited": [
+    "good"
+  ],
+  "suitable": [
+    "good",
+    "right"
+  ],
+  "apt": [
+    "good",
+    "right"
+  ],
+  "proper": [
+    "good",
+    "right",
+    "true"
+  ],
+  "capable": [
+    "good"
+  ],
+  "generous": [
+    "good"
+  ],
+  "kindly": [
+    "good"
+  ],
+  "friendly": [
+    "good"
+  ],
+  "gracious": [
+    "good"
+  ],
+  "obliging": [
+    "good"
+  ],
+  "pleasant": [
+    "good"
+  ],
+  "agreeable": [
+    "good"
+  ],
+  "pleasurable": [
+    "good"
+  ],
+  "satisfactory": [
+    "good"
+  ],
+  "well-behaved": [
+    "good"
+  ],
+  "obedient": [
+    "good"
+  ],
+  "honorable": [
+    "good"
+  ],
+  "reliable": [
+    "good"
+  ],
+  "trustworthy": [
+    "good"
+  ],
+  "safe": [
+    "good"
+  ],
+  "favorable": [
+    "good"
+  ],
+  "profitable": [
+    "good"
+  ],
+  "advantageous": [
+    "good"
+  ],
+  "righteous": [
+    "good"
+  ],
+  "expedient": [
+    "good"
+  ],
+  "helpful": [
+    "good"
+  ],
+  "valid": [
+    "good",
+    "true"
+  ],
+  "genuine": [
+    "good",
+    "true"
+  ],
+  "salubrious": [
+    "good"
+  ],
+  "estimable": [
+    "good"
+  ],
+  "beneficial": [
+    "good"
+  ],
+  "noble": [
+    "good"
+  ],
+  "worthy": [
+    "good",
+    "great"
+  ],
+  "first-rate": [
+    "good"
+  ],
+  "top-notch": [
+    "good"
+  ],
+  "sterling": [
+    "good"
+  ],
+  "superb": [
+    "good"
+  ],
+  "respectable": [
+    "good"
+  ],
+  "edifying": [
+    "good"
+  ],
+  "noteworthy": [
+    "great"
+  ],
+  "remarkable": [
+    "great"
+  ],
+  "considerable": [
+    "great",
+    "important"
+  ],
+  "powerful": [
+    "great"
+  ],
+  "much": [
+    "great"
+  ],
+  "mighty": [
+    "great"
+  ],
+  "rude": [
+    "gross"
+  ],
+  "coarse": [
+    "gross"
+  ],
+  "indecent": [
+    "gross"
+  ],
+  "crude": [
+    "gross"
+  ],
+  "vulgar": [
+    "gross"
+  ],
+  "extreme": [
+    "gross"
+  ],
+  "grievous": [
+    "gross"
+  ],
+  "shameful": [
+    "gross"
+  ],
+  "uncouth": [
+    "gross"
+  ],
+  "obscene": [
+    "gross"
+  ],
+  "low": [
+    "gross"
+  ],
+  "pleased": [
+    "happy"
+  ],
+  "contented": [
+    "happy"
+  ],
+  "satisfied": [
+    "happy"
+  ],
+  "delighted": [
+    "happy"
+  ],
+  "elated": [
+    "happy"
+  ],
+  "joyful": [
+    "happy"
+  ],
+  "cheerful": [
+    "happy"
+  ],
+  "ecstatic": [
+    "happy"
+  ],
+  "jubilant": [
+    "happy"
+  ],
+  "gay": [
+    "happy"
+  ],
+  "tickled": [
+    "happy"
+  ],
+  "gratified": [
+    "happy"
+  ],
+  "glad": [
+    "happy"
+  ],
+  "blissful": [
+    "happy"
+  ],
+  "overjoyed": [
+    "happy"
+  ],
+  "despise": [
+    "hate"
+  ],
+  "loathe": [
+    "hate"
+  ],
+  "detest": [
+    "hate"
+  ],
+  "abhor": [
+    "hate"
+  ],
+  "disfavor": [
+    "hate"
+  ],
+  "dislike": [
+    "hate"
+  ],
+  "disapprove": [
+    "hate"
+  ],
+  "abominate": [
+    "hate"
+  ],
+  "hold": [
+    "have",
+    "keep",
+    "take"
+  ],
+  "possess": [
+    "have"
+  ],
+  "own": [
+    "have"
+  ],
+  "contain": [
+    "have"
+  ],
+  "maintain": [
+    "have",
+    "keep"
+  ],
+  "believe": [
+    "have",
+    "think"
+  ],
+  "bear": [
+    "have"
+  ],
+  "beget": [
+    "have",
+    "make"
+  ],
+  "occupy": [
+    "have",
+    "take"
+  ],
+  "absorb": [
+    "have"
+  ],
+  "fill": [
+    "have"
+  ],
+  "enjoy": [
+    "have"
+  ],
+  "aid": [
+    "help"
+  ],
+  "assist": [
+    "help"
+  ],
+  "support": [
+    "help",
+    "keep"
+  ],
+  "encourage": [
+    "help"
+  ],
+  "back": [
+    "help"
+  ],
+  "wait on": [
+    "help"
+  ],
+  "attend": [
+    "help"
+  ],
+  "serve": [
+    "help"
+  ],
+  "relieve": [
+    "help"
+  ],
+  "succor": [
+    "help"
+  ],
+  "benefit": [
+    "help"
+  ],
+  "befriend": [
+    "help"
+  ],
+  "abet": [
+    "help"
+  ],
+  "conceal": [
+    "hide"
+  ],
+  "cover": [
+    "hide"
+  ],
+  "mask": [
+    "hide"
+  ],
+  "cloak": [
+    "hide"
+  ],
+  "camouflage": [
+    "hide"
+  ],
+  "screen": [
+    "hide"
+  ],
+  "shroud": [
+    "hide"
+  ],
+  "veil": [
+    "hide"
+  ],
+  "rush": [
+    "hurry",
+    "move",
+    "run"
+  ],
+  "run": [
+    "hurry",
+    "move"
+  ],
+  "speed": [
+    "hurry",
+    "run"
+  ],
+  "race": [
+    "hurry",
+    "move",
+    "run"
+  ],
+  "hasten": [
+    "hurry",
+    "move",
+    "run"
+  ],
+  "urge": [
+    "hurry"
+  ],
+  "accelerate": [
+    "hurry",
+    "move"
+  ],
+  "bustle": [
+    "hurry"
+  ],
+  "damage": [
+    "hurt"
+  ],
+  "harm": [
+    "hurt"
+  ],
+  "injure": [
+    "hurt"
+  ],
+  "wound": [
+    "hurt"
+  ],
+  "distress": [
+    "hurt",
+    "trouble"
+  ],
+  "afflict": [
+    "hurt"
+  ],
+  "pain": [
+    "hurt",
+    "trouble"
+  ],
+  "thought": [
+    "idea"
+  ],
+  "concept": [
+    "idea"
+  ],
+  "conception": [
+    "idea"
+  ],
+  "notion": [
+    "idea"
+  ],
+  "understanding": [
+    "idea"
+  ],
+  "opinion": [
+    "idea"
+  ],
+  "plan": [
+    "idea"
+  ],
+  "view": [
+    "idea",
+    "look"
+  ],
+  "belief": [
+    "idea"
+  ],
+  "necessary": [
+    "important"
+  ],
+  "vital": [
+    "important"
+  ],
+  "critical": [
+    "important"
+  ],
+  "indispensable": [
+    "important"
+  ],
+  "valuable": [
+    "important"
+  ],
+  "essential": [
+    "important"
+  ],
+  "significant": [
+    "important"
+  ],
+  "primary": [
+    "important"
+  ],
+  "principal": [
+    "important"
+  ],
+  "famous": [
+    "important"
+  ],
+  "notable": [
+    "important"
+  ],
+  "fascinating": [
+    "interesting"
+  ],
+  "engaging": [
+    "interesting"
+  ],
+  "sharp": [
+    "interesting"
+  ],
+  "bright": [
+    "interesting"
+  ],
+  "animated": [
+    "interesting"
+  ],
+  "spirited": [
+    "interesting"
+  ],
+  "inviting": [
+    "interesting"
+  ],
+  "intriguing": [
+    "interesting"
+  ],
+  "provocative": [
+    "interesting"
+  ],
+  "though-provoking": [
+    "interesting"
+  ],
+  "challenging": [
+    "interesting"
+  ],
+  "inspiring": [
+    "interesting"
+  ],
+  "involving": [
+    "interesting"
+  ],
+  "moving": [
+    "interesting"
+  ],
+  "titillating": [
+    "interesting"
+  ],
+  "tantalizing": [
+    "interesting"
+  ],
+  "exciting": [
+    "interesting"
+  ],
+  "entertaining": [
+    "interesting"
+  ],
+  "piquant": [
+    "interesting"
+  ],
+  "lively": [
+    "interesting"
+  ],
+  "racy": [
+    "interesting"
+  ],
+  "spicy": [
+    "interesting"
+  ],
+  "engrossing": [
+    "interesting"
+  ],
+  "absorbing": [
+    "interesting"
+  ],
+  "consuming": [
+    "interesting"
+  ],
+  "gripping": [
+    "interesting"
+  ],
+  "arresting": [
+    "interesting"
+  ],
+  "enthralling": [
+    "interesting"
+  ],
+  "spellbinding": [
+    "interesting"
+  ],
+  "curious": [
+    "interesting",
+    "strange"
+  ],
+  "captivating": [
+    "interesting"
+  ],
+  "enchanting": [
+    "interesting"
+  ],
+  "bewitching": [
+    "interesting"
+  ],
+  "appealing": [
+    "interesting"
+  ],
+  "retain": [
+    "keep"
+  ],
+  "withhold": [
+    "keep"
+  ],
+  "preserve": [
+    "keep"
+  ],
+  "sustain": [
+    "keep"
+  ],
+  "assassinate": [
+    "kill"
+  ],
+  "murder": [
+    "kill"
+  ],
+  "destroy": [
+    "kill"
+  ],
+  "cancel": [
+    "kill"
+  ],
+  "abolish": [
+    "kill"
+  ],
+  "indolent": [
+    "lazy"
+  ],
+  "slothful": [
+    "lazy"
+  ],
+  "idle": [
+    "lazy"
+  ],
+  "inactive": [
+    "lazy"
+  ],
+  "sluggish": [
+    "lazy"
+  ],
+  "tiny": [
+    "little"
+  ],
+  "small": [
+    "little"
+  ],
+  "diminutive": [
+    "little"
+  ],
+  "shrimp": [
+    "little"
+  ],
+  "runt": [
+    "little"
+  ],
+  "miniature": [
+    "little"
+  ],
+  "puny": [
+    "little"
+  ],
+  "exiguous": [
+    "little"
+  ],
+  "dinky": [
+    "little"
+  ],
+  "cramped": [
+    "little"
+  ],
+  "limited": [
+    "little"
+  ],
+  "itsy-bitsy": [
+    "little"
+  ],
+  "microscopic": [
+    "little"
+  ],
+  "slight": [
+    "little"
+  ],
+  "petite": [
+    "little"
+  ],
+  "minute": [
+    "little"
+  ],
+  "gaze": [
+    "look"
+  ],
+  "see": [
+    "look"
+  ],
+  "glance": [
+    "look"
+  ],
+  "watch": [
+    "look"
+  ],
+  "survey": [
+    "look"
+  ],
+  "study": [
+    "look"
+  ],
+  "seek": [
+    "look"
+  ],
+  "search for": [
+    "look"
+  ],
+  "peek": [
+    "look"
+  ],
+  "peep": [
+    "look"
+  ],
+  "glimpse": [
+    "look"
+  ],
+  "stare": [
+    "look"
+  ],
+  "contemplate": [
+    "look",
+    "think"
+  ],
+  "gape": [
+    "look"
+  ],
+  "ogle": [
+    "look"
+  ],
+  "scrutinize": [
+    "look"
+  ],
+  "inspect": [
+    "look"
+  ],
+  "leer": [
+    "look"
+  ],
+  "behold": [
+    "look"
+  ],
+  "observe": [
+    "look"
+  ],
+  "witness": [
+    "look"
+  ],
+  "perceive": [
+    "look"
+  ],
+  "spy": [
+    "look"
+  ],
+  "sight": [
+    "look"
+  ],
+  "discover": [
+    "look"
+  ],
+  "notice": [
+    "look",
+    "mark"
+  ],
+  "recognize": [
+    "look"
+  ],
+  "peer": [
+    "look"
+  ],
+  "eye": [
+    "look"
+  ],
+  "gawk": [
+    "look"
+  ],
+  "peruse": [
+    "look"
+  ],
+  "explore": [
+    "look"
+  ],
+  "admire": [
+    "love"
+  ],
+  "esteem": [
+    "love"
+  ],
+  "fancy": [
+    "love"
+  ],
+  "care for": [
+    "love"
+  ],
+  "cherish": [
+    "love"
+  ],
+  "adore": [
+    "love"
+  ],
+  "treasure": [
+    "love"
+  ],
+  "worship": [
+    "love"
+  ],
+  "create": [
+    "make"
+  ],
+  "invent": [
+    "make"
+  ],
+  "form": [
+    "make"
+  ],
+  "construct": [
+    "make"
+  ],
+  "design": [
+    "make",
+    "plan"
+  ],
+  "fabricate": [
+    "make"
+  ],
+  "manufacture": [
+    "make"
+  ],
+  "produce": [
+    "make"
+  ],
+  "build": [
+    "make",
+    "put"
+  ],
+  "develop": [
+    "make"
+  ],
+  "do": [
+    "make",
+    "put"
+  ],
+  "compose": [
+    "make"
+  ],
+  "perform": [
+    "make"
+  ],
+  "get": [
+    "make"
+  ],
+  "label": [
+    "mark"
+  ],
+  "tag": [
+    "mark"
+  ],
+  "price": [
+    "mark"
+  ],
+  "ticket": [
+    "mark"
+  ],
+  "impress": [
+    "mark"
+  ],
+  "trace": [
+    "mark"
+  ],
+  "imprint": [
+    "mark"
+  ],
+  "stamp": [
+    "mark"
+  ],
+  "brand": [
+    "mark"
+  ],
+  "sign": [
+    "mark"
+  ],
+  "note": [
+    "mark",
+    "show"
+  ],
+  "heed": [
+    "mark"
+  ],
+  "designate": [
+    "mark"
+  ],
+  "prankish": [
+    "mischievous"
+  ],
+  "playful": [
+    "mischievous"
+  ],
+  "naughty": [
+    "mischievous"
+  ],
+  "roguish": [
+    "mischievous"
+  ],
+  "waggish": [
+    "mischievous"
+  ],
+  "impish": [
+    "mischievous"
+  ],
+  "sportive": [
+    "mischievous"
+  ],
+  "plod": [
+    "move"
+  ],
+  "go": [
+    "move"
+  ],
+  "creep": [
+    "move"
+  ],
+  "crawl": [
+    "move"
+  ],
+  "inch": [
+    "move"
+  ],
+  "poke": [
+    "move"
+  ],
+  "drag": [
+    "move"
+  ],
+  "toddle": [
+    "move"
+  ],
+  "shuffle": [
+    "move"
+  ],
+  "trot": [
+    "move"
+  ],
+  "dawdle": [
+    "move"
+  ],
+  "walk": [
+    "move"
+  ],
+  "traipse": [
+    "move"
+  ],
+  "mosey": [
+    "move"
+  ],
+  "jog": [
+    "move"
+  ],
+  "plug": [
+    "move"
+  ],
+  "trudge": [
+    "move"
+  ],
+  "slump": [
+    "move"
+  ],
+  "lumber": [
+    "move"
+  ],
+  "trail": [
+    "move"
+  ],
+  "lag": [
+    "move"
+  ],
+  "sprint": [
+    "move",
+    "run"
+  ],
+  "trip": [
+    "move"
+  ],
+  "bound": [
+    "move"
+  ],
+  "hotfoot": [
+    "move"
+  ],
+  "high-tail": [
+    "move"
+  ],
+  "streak": [
+    "move"
+  ],
+  "stride": [
+    "move"
+  ],
+  "tear": [
+    "move"
+  ],
+  "breeze": [
+    "move"
+  ],
+  "whisk": [
+    "move"
+  ],
+  "dash": [
+    "move",
+    "run"
+  ],
+  "dart": [
+    "move"
+  ],
+  "bolt": [
+    "move"
+  ],
+  "fling": [
+    "move"
+  ],
+  "scamper": [
+    "move"
+  ],
+  "scurry": [
+    "move"
+  ],
+  "skedaddle": [
+    "move"
+  ],
+  "scoot": [
+    "move"
+  ],
+  "scuttle": [
+    "move"
+  ],
+  "scramble": [
+    "move"
+  ],
+  "chase": [
+    "move"
+  ],
+  "hurry": [
+    "move",
+    "run"
+  ],
+  "hump": [
+    "move"
+  ],
+  "gallop": [
+    "move"
+  ],
+  "lope": [
+    "move"
+  ],
+  "stir": [
+    "move"
+  ],
+  "budge": [
+    "move"
+  ],
+  "wander": [
+    "move"
+  ],
+  "roam": [
+    "move"
+  ],
+  "journey": [
+    "move"
+  ],
+  "trek": [
+    "move"
+  ],
+  "ride": [
+    "move"
+  ],
+  "spin": [
+    "move"
+  ],
+  "slip": [
+    "move"
+  ],
+  "slide": [
+    "move"
+  ],
+  "slither": [
+    "move"
+  ],
+  "flow": [
+    "move"
+  ],
+  "saunter": [
+    "move"
+  ],
+  "hobble": [
+    "move"
+  ],
+  "amble": [
+    "move"
+  ],
+  "stagger": [
+    "move"
+  ],
+  "paddle": [
+    "move"
+  ],
+  "slouch": [
+    "move"
+  ],
+  "prance": [
+    "move"
+  ],
+  "straggle": [
+    "move"
+  ],
+  "meander": [
+    "move"
+  ],
+  "perambulate": [
+    "move"
+  ],
+  "waddle": [
+    "move"
+  ],
+  "wobble": [
+    "move"
+  ],
+  "pace": [
+    "move"
+  ],
+  "swagger": [
+    "move"
+  ],
+  "promenade": [
+    "move"
+  ],
+  "lunge": [
+    "move"
+  ],
+  "temperamental": [
+    "moody"
+  ],
+  "changeable": [
+    "moody"
+  ],
+  "short-tempered": [
+    "moody"
+  ],
+  "glum": [
+    "moody",
+    "unhappy"
+  ],
+  "morose": [
+    "moody"
+  ],
+  "sullen": [
+    "moody"
+  ],
+  "mopish": [
+    "moody"
+  ],
+  "irritable": [
+    "moody"
+  ],
+  "testy": [
+    "moody"
+  ],
+  "peevish": [
+    "moody"
+  ],
+  "fretful": [
+    "moody"
+  ],
+  "spiteful": [
+    "moody"
+  ],
+  "sulky": [
+    "moody"
+  ],
+  "touchy": [
+    "moody"
+  ],
+  "clean": [
+    "neat"
+  ],
+  "orderly": [
+    "neat"
+  ],
+  "tidy": [
+    "neat"
+  ],
+  "trim": [
+    "neat"
+  ],
+  "dapper": [
+    "neat"
+  ],
+  "natty": [
+    "neat"
+  ],
+  "well-organized": [
+    "neat"
+  ],
+  "super": [
+    "neat"
+  ],
+  "desirable": [
+    "neat"
+  ],
+  "spruce": [
+    "neat"
+  ],
+  "shipshape": [
+    "neat"
+  ],
+  "well-kept": [
+    "neat"
+  ],
+  "fresh": [
+    "new"
+  ],
+  "unique": [
+    "new",
+    "strange"
+  ],
+  "original": [
+    "new"
+  ],
+  "unusual": [
+    "new",
+    "strange"
+  ],
+  "novel": [
+    "new"
+  ],
+  "modern": [
+    "new"
+  ],
+  "current": [
+    "new",
+    "popular"
+  ],
+  "recent": [
+    "new"
+  ],
+  "feeble": [
+    "old"
+  ],
+  "frail": [
+    "old"
+  ],
+  "ancient": [
+    "old"
+  ],
+  "weak": [
+    "old"
+  ],
+  "aged": [
+    "old"
+  ],
+  "used": [
+    "old"
+  ],
+  "worn": [
+    "old"
+  ],
+  "dilapidated": [
+    "old"
+  ],
+  "ragged": [
+    "old"
+  ],
+  "faded": [
+    "old"
+  ],
+  "broken-down": [
+    "old"
+  ],
+  "former": [
+    "old"
+  ],
+  "old-fashioned": [
+    "old"
+  ],
+  "outmoded": [
+    "old"
+  ],
+  "passe": [
+    "old"
+  ],
+  "veteran": [
+    "old"
+  ],
+  "mature": [
+    "old"
+  ],
+  "venerable": [
+    "old"
+  ],
+  "primitive": [
+    "old"
+  ],
+  "traditional": [
+    "old"
+  ],
+  "archaic": [
+    "old"
+  ],
+  "conventional": [
+    "old"
+  ],
+  "customary": [
+    "old"
+  ],
+  "stale": [
+    "old"
+  ],
+  "musty": [
+    "old"
+  ],
+  "obsolete": [
+    "old"
+  ],
+  "extinct": [
+    "old"
+  ],
+  "portion": [
+    "part"
+  ],
+  "share": [
+    "part"
+  ],
+  "piece": [
+    "part"
+  ],
+  "allotment": [
+    "part"
+  ],
+  "section": [
+    "part"
+  ],
+  "fraction": [
+    "part"
+  ],
+  "fragment": [
+    "part"
+  ],
+  "space": [
+    "place"
+  ],
+  "area": [
+    "place"
+  ],
+  "spot": [
+    "place",
+    "predicament"
+  ],
+  "plot": [
+    "place",
+    "plan"
+  ],
+  "region": [
+    "place"
+  ],
+  "location": [
+    "place"
+  ],
+  "situation": [
+    "place"
+  ],
+  "position": [
+    "place"
+  ],
+  "residence": [
+    "place"
+  ],
+  "dwelling": [
+    "place"
+  ],
+  "set": [
+    "place",
+    "put"
+  ],
+  "site": [
+    "place"
+  ],
+  "station": [
+    "place"
+  ],
+  "status": [
+    "place"
+  ],
+  "state": [
+    "place",
+    "say/tell"
+  ],
+  "scheme": [
+    "plan"
+  ],
+  "draw": [
+    "plan"
+  ],
+  "map": [
+    "plan"
+  ],
+  "diagram": [
+    "plan"
+  ],
+  "procedure": [
+    "plan"
+  ],
+  "arrangement": [
+    "plan"
+  ],
+  "intention": [
+    "plan"
+  ],
+  "device": [
+    "plan"
+  ],
+  "contrivance": [
+    "plan"
+  ],
+  "method": [
+    "plan"
+  ],
+  "way": [
+    "plan"
+  ],
+  "blueprint": [
+    "plan"
+  ],
+  "well-liked": [
+    "popular"
+  ],
+  "approved": [
+    "popular"
+  ],
+  "accepted": [
+    "popular"
+  ],
+  "favorite": [
+    "popular"
+  ],
+  "common": [
+    "popular"
+  ],
+  "quandary": [
+    "predicament"
+  ],
+  "dilemma": [
+    "predicament"
+  ],
+  "pickle": [
+    "predicament"
+  ],
+  "problem": [
+    "predicament"
+  ],
+  "plight": [
+    "predicament"
+  ],
+  "scrape": [
+    "predicament"
+  ],
+  "jam": [
+    "predicament"
+  ],
+  "place": [
+    "put"
+  ],
+  "attach": [
+    "put"
+  ],
+  "establish": [
+    "put"
+  ],
+  "assign": [
+    "put"
+  ],
+  "keep": [
+    "put"
+  ],
+  "save": [
+    "put"
+  ],
+  "set aside": [
+    "put"
+  ],
+  "silent": [
+    "quiet"
+  ],
+  "soundless": [
+    "quiet"
+  ],
+  "mute": [
+    "quiet"
+  ],
+  "calm": [
+    "quiet"
+  ],
+  "restful": [
+    "quiet"
+  ],
+  "correct": [
+    "right"
+  ],
+  "accurate": [
+    "right",
+    "true"
+  ],
+  "factual": [
+    "right"
+  ],
+  "true": [
+    "right"
+  ],
+  "good": [
+    "right"
+  ],
+  "upright": [
+    "right"
+  ],
+  "lawful": [
+    "right"
+  ],
+  "moral": [
+    "right"
+  ],
+  "legal": [
+    "right"
+  ],
+  "escape": [
+    "run"
+  ],
+  "elope": [
+    "run"
+  ],
+  "inform": [
+    "say/tell",
+    "tell"
+  ],
+  "notify": [
+    "say/tell"
+  ],
+  "advise": [
+    "say/tell",
+    "tell"
+  ],
+  "explain": [
+    "say/tell",
+    "show",
+    "tell"
+  ],
+  "reveal": [
+    "say/tell",
+    "show",
+    "tell"
+  ],
+  "disclose": [
+    "say/tell",
+    "tell"
+  ],
+  "divulge": [
+    "say/tell",
+    "tell"
+  ],
+  "declare": [
+    "say/tell",
+    "tell"
+  ],
+  "command": [
+    "say/tell",
+    "tell"
+  ],
+  "order": [
+    "say/tell",
+    "tell"
+  ],
+  "bid": [
+    "say/tell",
+    "tell"
+  ],
+  "enlighten": [
+    "say/tell"
+  ],
+  "instruct": [
+    "say/tell"
+  ],
+  "insist": [
+    "say/tell"
+  ],
+  "teach": [
+    "say/tell"
+  ],
+  "train": [
+    "say/tell"
+  ],
+  "direct": [
+    "say/tell"
+  ],
+  "issue": [
+    "say/tell"
+  ],
+  "remark": [
+    "say/tell"
+  ],
+  "converse": [
+    "say/tell"
+  ],
+  "speak": [
+    "say/tell"
+  ],
+  "affirm": [
+    "say/tell"
+  ],
+  "suppose": [
+    "say/tell"
+  ],
+  "utter": [
+    "say/tell"
+  ],
+  "negate": [
+    "say/tell"
+  ],
+  "express": [
+    "say/tell"
+  ],
+  "verbalize": [
+    "say/tell"
+  ],
+  "voice": [
+    "say/tell"
+  ],
+  "articulate": [
+    "say/tell"
+  ],
+  "pronounce": [
+    "say/tell"
+  ],
+  "deliver": [
+    "say/tell"
+  ],
+  "convey": [
+    "say/tell"
+  ],
+  "impart": [
+    "say/tell"
+  ],
+  "assert": [
+    "say/tell"
+  ],
+  "allege": [
+    "say/tell"
+  ],
+  "mutter": [
+    "say/tell"
+  ],
+  "mumble": [
+    "say/tell"
+  ],
+  "whisper": [
+    "say/tell"
+  ],
+  "sigh": [
+    "say/tell"
+  ],
+  "exclaim": [
+    "say/tell"
+  ],
+  "sing": [
+    "say/tell"
+  ],
+  "yelp": [
+    "say/tell"
+  ],
+  "snarl": [
+    "say/tell"
+  ],
+  "hiss": [
+    "say/tell"
+  ],
+  "grunt": [
+    "say/tell"
+  ],
+  "snort": [
+    "say/tell"
+  ],
+  "thunder": [
+    "say/tell"
+  ],
+  "boom": [
+    "say/tell"
+  ],
+  "shriek": [
+    "say/tell"
+  ],
+  "screech": [
+    "say/tell"
+  ],
+  "squawk": [
+    "say/tell"
+  ],
+  "whine": [
+    "say/tell"
+  ],
+  "philosophize": [
+    "say/tell"
+  ],
+  "stammer": [
+    "say/tell"
+  ],
+  "stutter": [
+    "say/tell"
+  ],
+  "lisp": [
+    "say/tell"
+  ],
+  "drawl": [
+    "say/tell"
+  ],
+  "jabber": [
+    "say/tell"
+  ],
+  "protest": [
+    "say/tell"
+  ],
+  "announce": [
+    "say/tell"
+  ],
+  "swear": [
+    "say/tell"
+  ],
+  "vow": [
+    "say/tell"
+  ],
+  "content": [
+    "say/tell"
+  ],
+  "assure": [
+    "say/tell"
+  ],
+  "deny": [
+    "say/tell"
+  ],
+  "dispute": [
+    "say/tell"
+  ],
+  "afraid": [
+    "scared"
+  ],
+  "frightened": [
+    "scared"
+  ],
+  "alarmed": [
+    "scared"
+  ],
+  "terrified": [
+    "scared"
+  ],
+  "panicked": [
+    "scared"
+  ],
+  "fearful": [
+    "scared"
+  ],
+  "unnerved": [
+    "scared"
+  ],
+  "insecure": [
+    "scared"
+  ],
+  "timid": [
+    "scared"
+  ],
+  "shy": [
+    "scared"
+  ],
+  "skittish": [
+    "scared"
+  ],
+  "jumpy": [
+    "scared"
+  ],
+  "disquieted": [
+    "scared"
+  ],
+  "worried": [
+    "scared"
+  ],
+  "vexed": [
+    "scared"
+  ],
+  "troubled": [
+    "scared"
+  ],
+  "disturbed": [
+    "scared"
+  ],
+  "horrified": [
+    "scared"
+  ],
+  "terrorized": [
+    "scared"
+  ],
+  "shocked": [
+    "scared"
+  ],
+  "petrified": [
+    "scared"
+  ],
+  "haunted": [
+    "scared"
+  ],
+  "timorous": [
+    "scared"
+  ],
+  "shrinking": [
+    "scared"
+  ],
+  "tremulous": [
+    "scared"
+  ],
+  "stupefied": [
+    "scared"
+  ],
+  "paralyzed": [
+    "scared"
+  ],
+  "stunned": [
+    "scared"
+  ],
+  "apprehensive": [
+    "scared"
+  ],
+  "display": [
+    "show"
+  ],
+  "exhibit": [
+    "show"
+  ],
+  "present": [
+    "show"
+  ],
+  "point to": [
+    "show"
+  ],
+  "indicate": [
+    "show"
+  ],
+  "prove": [
+    "show"
+  ],
+  "demonstrate": [
+    "show"
+  ],
+  "expose": [
+    "show",
+    "tell"
+  ],
+  "unhurried": [
+    "slow"
+  ],
+  "gradual": [
+    "slow"
+  ],
+  "leisurely": [
+    "slow"
+  ],
+  "late": [
+    "slow"
+  ],
+  "behind": [
+    "slow"
+  ],
+  "slack": [
+    "slow"
+  ],
+  "cease": [
+    "stop"
+  ],
+  "stay": [
+    "stop"
+  ],
+  "pause": [
+    "stop"
+  ],
+  "discontinue": [
+    "stop"
+  ],
+  "quit": [
+    "stop"
+  ],
+  "tale": [
+    "story"
+  ],
+  "myth": [
+    "story"
+  ],
+  "legend": [
+    "story"
+  ],
+  "fable": [
+    "story"
+  ],
+  "yarn": [
+    "story"
+  ],
+  "account": [
+    "story"
+  ],
+  "narrative": [
+    "story"
+  ],
+  "chronicle": [
+    "story"
+  ],
+  "epic": [
+    "story"
+  ],
+  "sage": [
+    "story"
+  ],
+  "anecdote": [
+    "story"
+  ],
+  "memoir": [
+    "story"
+  ],
+  "odd": [
+    "strange"
+  ],
+  "peculiar": [
+    "strange"
+  ],
+  "unfamiliar": [
+    "strange"
+  ],
+  "uncommon": [
+    "strange"
+  ],
+  "queer": [
+    "strange"
+  ],
+  "weird": [
+    "strange"
+  ],
+  "outlandish": [
+    "strange"
+  ],
+  "exclusive": [
+    "strange"
+  ],
+  "irregular": [
+    "strange"
+  ],
+  "seize": [
+    "take"
+  ],
+  "grasp": [
+    "take"
+  ],
+  "capture": [
+    "take"
+  ],
+  "pick": [
+    "take"
+  ],
+  "select": [
+    "take"
+  ],
+  "prefer": [
+    "take"
+  ],
+  "remove": [
+    "take"
+  ],
+  "steal": [
+    "take"
+  ],
+  "lift": [
+    "take"
+  ],
+  "rob": [
+    "take"
+  ],
+  "engage": [
+    "take"
+  ],
+  "bewitch": [
+    "take"
+  ],
+  "purchase": [
+    "take"
+  ],
+  "buy": [
+    "take"
+  ],
+  "retract": [
+    "take"
+  ],
+  "recall": [
+    "take"
+  ],
+  "assume": [
+    "take",
+    "think"
+  ],
+  "consume": [
+    "take",
+    "use"
+  ],
+  "show": [
+    "tell"
+  ],
+  "uncover": [
+    "tell"
+  ],
+  "repeat": [
+    "tell"
+  ],
+  "judge": [
+    "think"
+  ],
+  "deem": [
+    "think"
+  ],
+  "consider": [
+    "think"
+  ],
+  "reflect": [
+    "think"
+  ],
+  "mediate": [
+    "think"
+  ],
+  "anguish": [
+    "trouble"
+  ],
+  "worry": [
+    "trouble"
+  ],
+  "wretchedness": [
+    "trouble"
+  ],
+  "danger": [
+    "trouble"
+  ],
+  "peril": [
+    "trouble"
+  ],
+  "disaster": [
+    "trouble"
+  ],
+  "grief": [
+    "trouble"
+  ],
+  "misfortune": [
+    "trouble"
+  ],
+  "difficulty": [
+    "trouble"
+  ],
+  "concern": [
+    "trouble"
+  ],
+  "pains": [
+    "trouble"
+  ],
+  "inconvenience": [
+    "trouble"
+  ],
+  "exertion": [
+    "trouble"
+  ],
+  "effort": [
+    "trouble"
+  ],
+  "right": [
+    "true"
+  ],
+  "precise": [
+    "true"
+  ],
+  "exact": [
+    "true"
+  ],
+  "real": [
+    "true"
+  ],
+  "actual": [
+    "true"
+  ],
+  "trusty": [
+    "true"
+  ],
+  "steady": [
+    "true"
+  ],
+  "loyal": [
+    "true"
+  ],
+  "dependable": [
+    "true"
+  ],
+  "sincere": [
+    "true"
+  ],
+  "staunch": [
+    "true"
+  ],
+  "hideous": [
+    "ugly"
+  ],
+  "frightful": [
+    "ugly"
+  ],
+  "frightening": [
+    "ugly"
+  ],
+  "shocking": [
+    "ugly"
+  ],
+  "monstrous": [
+    "ugly"
+  ],
+  "terrifying": [
+    "ugly"
+  ],
+  "grisly": [
+    "ugly"
+  ],
+  "horrid": [
+    "ugly"
+  ],
+  "unsightly": [
+    "ugly"
+  ],
+  "homely": [
+    "ugly"
+  ],
+  "repulsive": [
+    "ugly"
+  ],
+  "repugnant": [
+    "ugly"
+  ],
+  "gruesome": [
+    "ugly"
+  ],
+  "miserable": [
+    "unhappy"
+  ],
+  "uncomfortable": [
+    "unhappy"
+  ],
+  "wretched": [
+    "unhappy"
+  ],
+  "heart-broken": [
+    "unhappy"
+  ],
+  "unfortunate": [
+    "unhappy"
+  ],
+  "downhearted": [
+    "unhappy"
+  ],
+  "sorrowful": [
+    "unhappy"
+  ],
+  "depressed": [
+    "unhappy"
+  ],
+  "dejected": [
+    "unhappy"
+  ],
+  "melancholy": [
+    "unhappy"
+  ],
+  "discouraged": [
+    "unhappy"
+  ],
+  "employ": [
+    "use"
+  ],
+  "utilize": [
+    "use"
+  ],
+  "exhaust": [
+    "use"
+  ],
+  "spend": [
+    "use"
+  ],
+  "expend": [
+    "use"
+  ],
+  "exercise": [
+    "use"
+  ],
+  "incorrect": [
+    "wrong"
+  ],
+  "inaccurate": [
+    "wrong"
+  ],
+  "mistaken": [
+    "wrong"
+  ]
+}

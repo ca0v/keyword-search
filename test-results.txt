@@ -1,5 +1,6 @@
 Searching for "How do I compare a Probe Image to another image?"
 
+Keyword not found: makeput
     2049: | FACE Plus ΓÇô Facial Recognition Case Management 74
     2051: Compare
 ->  2052: FACE Plus allows you to compare the probe image to one of the search result images. Hover over and
@@ -16,27 +17,12 @@ Searching for "How do I compare a Probe Image to another image?"
 
 Searching for "How can I find my recent Facial Recognition Sessions?"
 
-      58: Lineup Search Results ......................................................................................................................... 34
-      59: Narrow Search Results ........................................................................................................................ 35
-      60: Reset the Home Screen ...................................................................................................................... 35
-->    61: Find Facial Recognition Session .............................................................................................................. 36
-      62: Facial Recognition Session Search ...................................................................................................... 36
-      63: Session Search Results ........................................................................................................................ 37
-      64: Narrow Search Results ........................................................................................................................ 38
-
-     272: Once you have entered your credentials and clicked the Sign In button, the Home Screen will be
-     273: displayed. Several options are available to you from this screen.  On the Home Screen, users will be able
-     274: to see records, lineups, and sessions displayed in the center of the page. Users will be able to see all
-->   275: records and lineups accessed in the system but only their own facial recognition sessions. Users can
-     276: create, retrieve, or edit records, lineups, or facial recognition sessions via the left sidebar, or directly
-     277: from the appropriate flip card. The left sidebar can also be collapsed to maximize screen space. You may
-     278: also use the breadcrumb trail for easy navigation between pages in the process. Click to reset display to
-
-    1139: | Finding Records, Lineups, or Facial Recognition Sessions 36
-->  1141: Find Facial Recognition Session
-    1142: In addition to perform facial recognition searches, users can also search and retrieve previously-created
-    1143: facial recognition sessions. This allows users to find specific facial recognition sessions by date and
-    1144: description.
+    1639: FACE Plus ΓÇô Facial Recognition Case Management
+    1640: FACE Plus provides accurate, reliable identification with the latest and greatest in facial recognition
+    1641: matching accuracy and tools to manipulate images and compare images.
+->  1642: Starting a New Facial Recognition Session
+    1643: Users can perform facial recognition searches using probe images as well as data filtering.
+    1645: From the Home Screen, select New Facial Recognition Session from the left sidebar.
 
 Searching for "What is the difference between Lineups and Investigations?"
 
@@ -50,6 +36,7 @@ Searching for "What is the difference between Lineups and Investigations?"
 
 Searching for "How do I filter my session results?"
 
+Keyword not found: makeput
     1891: | FACE Plus ΓÇô Facial Recognition Case Management 66
     1893: Data Filter Result Row
 ->  1894: A Data Filter can be applied during the session. Note that a data filter result row will not appear unless a
@@ -58,13 +45,26 @@ Searching for "How do I filter my session results?"
 
 Searching for "What does Bookmarking an image do?"
 
-    3697: delete the layer.
-    3698: ∩é╖ Convert to raster: converts an object or drawing from a vector (graphic)
-    3699: image to a raster (pixel) image to allow actions such as rotate, crop, etc.
-->  3700: Since most vector images do not allow editing they must be turned into a
-    3701: raster image to allow for editing.
-    3702: ∩é╖ Move >
-    3703: o Up: option moves the active layer up one level.
+Keyword not found: makeput
+    1366: | New Lineup or Investigation 43
+    1368: Lineup Hover Menu
+->  1369: Users can access the Lineup Hover Menu by hovering their mouse over a Lineup image. This hover menu
+    1370: will allow users to perform key functions on the image, such as linking, bookmarking, editing, or
+    1371: removing.
+
+    1373: Information
+
+    1973: | FACE Plus ΓÇô Facial Recognition Case Management 70
+    1975: Results Hover Menu
+->  1976: Access the Results Hover Menu by hovering the mouse over a Result image. This hover menu will allow
+    1977: users to perform key functions on the image, such as linking, bookmarking, and comparing. You may
+    1978: also view more information on the individual.
+
+    1980: ∩é╖ Information: will take you to that result imageΓÇÖs record.
+
+->  2750: Click on the  icon to the right of the characteristic to view a reference image of what to compare.
+    2751: The official FISWG Reference will display multiple views of the characteristic being compared, outlined
+    2752: in dashed lines. Click on an area outside the window to return to the Comparison screen.
 
 Searching for "Why is the search similar option not avaiable?"
 
@@ -86,6 +86,7 @@ Searching for "Can I add more than 8 images to a lineup?"
 
 Searching for "Do changes I make in the image editor overwrite the original image?"
 
+Keyword not found: makeput
     3008: eye locations.
     3009: SAVING
     3010: When you are finished working with the image click Save/Close and the changes that you have made to
@@ -96,9 +97,8 @@ Searching for "Do changes I make in the image editor overwrite the original imag
 
 Searching for "How can I correct the pose of my Mugshot?"
 
-    2983: Auto-correct Image will automatically correct the image as needed.
-->  2985: Pose Correction allows you to create a 3D model of the face. From the 3D model, you
-    2986: may adjust the 3D model to optimize the pose and lighting of the image, which can then
-    2987: be used to find matching records. For more information, please see ΓÇ¥Pose CorrectionΓÇ¥ on
-    2988: page 106.
+     468: recognition  sessions. Note:  if  you  do  not  have  rights  to  a  particular  category  it  will  be  grayed
+     469: out.
+->   471: ∩é╖ Modify How the Information is Displayed: At the top right of the screen, you can also select the
+     472: type of view for the information displayed such as ΓÇ£Flip Cards,ΓÇ¥ ΓÇ£Details,ΓÇ¥ or ΓÇ£Images.ΓÇ¥
 
