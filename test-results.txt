@@ -46,25 +46,9 @@ Keyword not found: makeput
 Searching for "What does Bookmarking an image do?"
 
 Keyword not found: makeput
-    1366: | New Lineup or Investigation 43
-    1368: Lineup Hover Menu
-->  1369: Users can access the Lineup Hover Menu by hovering their mouse over a Lineup image. This hover menu
-    1370: will allow users to perform key functions on the image, such as linking, bookmarking, editing, or
-    1371: removing.
-
-    1373: Information
-
-    1973: | FACE Plus ΓÇô Facial Recognition Case Management 70
-    1975: Results Hover Menu
-->  1976: Access the Results Hover Menu by hovering the mouse over a Result image. This hover menu will allow
-    1977: users to perform key functions on the image, such as linking, bookmarking, and comparing. You may
-    1978: also view more information on the individual.
-
-    1980: ∩é╖ Information: will take you to that result imageΓÇÖs record.
-
-->  2750: Click on the  icon to the right of the characteristic to view a reference image of what to compare.
-    2751: The official FISWG Reference will display multiple views of the characteristic being compared, outlined
-    2752: in dashed lines. Click on an area outside the window to return to the Comparison screen.
+    1391: | New Lineup or Investigation 44
+->  1393: Bookmark - Mark Lineup Image as Candidate
+    1394: Hover over the image and select Bookmark from the Lineup Hover Menu.
 
 Searching for "Why is the search similar option not avaiable?"
 
