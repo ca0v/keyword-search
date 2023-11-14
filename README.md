@@ -55,3 +55,6 @@ Here are the sample questions I was given to test the algorithm, one has a typo:
 
 Ideally the results would be conversational, but also link to the original documentation.  For example, if the user asked "How do I compare a Probe Image to another image?", the results would be:
 
+    A probe image, in the context of facial recognition or image analysis, is a specific image used as a reference or query for comparison against a database or a set of images. It's essentially the image that is being investigated or compared to other images in order to identify or find similarities with other images within a system or a database.
+
+    The term "probe" implies that this image is used to probe or inquire into a database or collection of images, seeking matches or similarities. This image is typically compared against other images or a dataset to find matches, identify individuals, or retrieve similar images based on certain characteristics or criteria set within the software or system.
