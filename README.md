@@ -37,6 +37,9 @@ Synonyms are words with similar meanings. For example, "car" and "automobile" ar
 
 While the above algorithm works if the user is familiar with the document, it does not recognize spelling errors or phrases.
 
+### Known Issues
+TODO: Presently the thesaurus is not using stemmed words, so it is basically useless.
+
 ## Sample Questions
 
 Here are the sample questions I was given to test the algorithm, one has a typo:
