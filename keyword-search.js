@@ -1,13 +1,13 @@
-const fileName = 'test1.txt';
+const fileName = 'test2.txt';
 
-// 1. read the test1.txt file in the data folder
+// 1. read the document from the data folder
 // 2. build a keyword search index
 // 3. save the index to a file
 // 4. read the index from the file
 // 5. search the index for a list of keywords
 // 6. print the results to the console
 
-// 1. read the test1.txt file in the data folder
+// 1. read the document from the data folder
 const fs = require('fs');
 const path = require('path');
 const { argv } = require('process');
@@ -39,6 +39,7 @@ const indexFromFile = JSON.parse(indexContents);
 const searchPhrase = argv.slice(2);
 const keywords = searchPhrase.map(v => cleanWord(v.toLowerCase())).map(v => stemmer[v] || v).filter(v => !blacklist.includes(v));
 console.log(`Searching for "${searchPhrase.join(' ')}"`);
+console.log();
 
 const searchResult = searchIndex(indexFromFile, keywords, { stemmer });
 const bestLines = findBestResults(searchResult);
@@ -116,7 +117,7 @@ function searchIndex(index, keywords, options = {}) {
         if (word) {
             const lines = index[word];
             if (!lines) {
-                console.log(`No results found for ${keyword}`);
+                console.log(`Keyword not found: ${keyword}`);
                 return;
             }
             lines.forEach(line => {
