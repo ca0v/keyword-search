@@ -99,6 +99,12 @@ BERT's pre-trained weights can be fine-tuned for various downstream tasks such a
 
 - Iterative Improvement: Continuously monitor and iterate on your model. Fine-tuning may involve multiple iterations to achieve the desired search result improvements.
 
+##### Model Selection
+
+We would want to select an `asymmetric semantic search` model.  This model should be able to take keywords and return a phrase.  Here are some [Asymmetric models](https://www.sbert.net/docs/pretrained-models/msmarco-v3.html).  It is also critical that the vector-space be 1B or less to avoid expensive compute.
+
+Models tuned for `cosine-similarity` will prefer the retrieval of shorter passages, while models for `dot-product` will prefer the retrieval of longer passages. We want verbose responses (`cosine`).
+
 ##### Training Data Requirements
 
 The amount of data needed to achieve reasonable search results with BERT can vary based on multiple factors:
@@ -118,3 +124,7 @@ However, it's crucial to perform iterative experiments and validation to determi
 Moreover, techniques like data augmentation, transfer learning, or leveraging pre-trained models with domain-specific adaptations can sometimes mitigate the need for extensive amounts of data.
 
 In essence, while there's no fixed minimal amount of data universally applicable for all tasks, starting with a smaller dataset and gradually increasing the size while evaluating the model's performance is a practical approach to determine the optimal data size for fine-tuning BERT for search tasks.
+
+# References
+We can use [Sentence Transformers](https://github.com/UKPLab/sentence-transformers/tree/master/examples) to rephrase the question to match an existing question (and hence find a suitable answer).
+
