@@ -61,3 +61,27 @@ Ideally the results would be conversational, but also link to the original docum
     A probe image, in the context of facial recognition or image analysis, is a specific image used as a reference or query for comparison against a database or a set of images. It's essentially the image that is being investigated or compared to other images in order to identify or find similarities with other images within a system or a database.
 
     The term "probe" implies that this image is used to probe or inquire into a database or collection of images, seeking matches or similarities. This image is typically compared against other images or a dataset to find matches, identify individuals, or retrieve similar images based on certain characteristics or criteria set within the software or system.
+
+### BERT
+
+BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based machine learning model developed by Google that excels in understanding the context of words in a sentence or passage. 
+
+BERT's strength lies in its ability to understand the context of words, phrases, and sentences by leveraging a large amount of pre-training data. This allows it to be adaptable and perform effectively across a wide range of natural language processing tasks.
+
+Here's a simplified breakdown of how BERT operates:
+
+#### Bidirectional Context Understanding
+Unlike earlier models that processed text from left to right or right to left, BERT learns from the context of a word by considering both its left and right context in a sentence. This bidirectional approach helps it understand the nuances and dependencies between words more effectively.
+
+#### Pre-training and Fine-tuning
+BERT is pre-trained on massive amounts of text data in an unsupervised manner. During pre-training, it learns to predict missing words within sentences (Masked Language Model - MLM) and understand sentence relationships (Next Sentence Prediction - NSP). After pre-training, it can be fine-tuned on specific tasks with smaller, task-specific datasets.
+
+#### Tokenization and Attention Mechanism
+BERT tokenizes input text into smaller units called tokens, allowing it to understand the meaning of individual words, subwords, or pieces of words. It uses self-attention mechanisms, enabling it to weigh the importance of different words in relation to each other within a sentence.
+
+#### Embeddings and Representations
+BERT generates contextual embeddings for each token in a sentence, capturing the meaning of the token based on its context within the entire text. These embeddings represent the semantic meaning of the words in a high-dimensional space.
+
+#### Fine-tuning for Specific Tasks
+BERT's pre-trained weights can be fine-tuned for various downstream tasks such as text classification, named entity recognition, question answering, and more. Fine-tuning adjusts the model to perform well on specific tasks by updating its parameters with task-specific data.
+
