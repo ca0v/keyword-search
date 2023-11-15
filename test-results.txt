@@ -1,111 +1,102 @@
 Searching for "How do I compare a Probe Image to another image?"
 
-    2118: | FACE Plus – Facial Recognition Case Management  85
-    2119: Chart Compare
-->  2120: Chart Compare allows you to make annotations and measurements on the probe image and the result
-    2121: image. Hover over Chart  Compare  on the result image that you wish to compare to the pro be image
-    2122: too.
-    2123: If components  are installed open the comparison software. (See Installing Fa cial Recognition
+    1193: | FACE Plus – Facial Recognition Case Management 73
+    1194: DataWorks Plus Digital PhotoManager & Facial Recognition
+    1195: Compare
+->  1196: FACE Plus allows you to compare the probe image to one of the search result images. Hover over and
+    1197: select Compare on the result image that you wish to compare to the probe image to.
+    1198: Make sure you have installed Facial Recognition Components for the software to work. (See Installing
+    1199: Facial Recognition Components, page 139.) If components are installed open the comparison software.
+
+    1406: | FACE Plus – Facial Recognition Case Management 84
+    1407: DataWorks Plus Digital PhotoManager & Facial Recognition
+    1408: Chart Compare
+->  1409: Chart Compare allows you to make annotations and measurements on the probe image and the result
+    1410: image. Hover over Chart Compare on the result image that you wish to compare to the probe image
+    1411: too.
+    1412: If components are installed open the comparison software. (See Installing Facial Recognition
 
 Searching for "How can I find my recent Facial Recognition Sessions?"
 
-    1011: DataWorks Plus  Digital PhotoManager & Facial Recognition
-->  1013: | Finding Records, Lineups, or Facial Recognition Sessions  36
-    1014: Find Facial Recognition Session
-    1015: In additio n to perform facial recognition searches, users can also search and retrieve previously -created
-    1016: facial recognition sessions. This allows users to find specific facial recognition sessions by date and
+     939: matching accuracy and tools to manipulate images and compare images.
+     940: Starting a New Facial Recognition Session
+     941: Users can perform facial recognition searches using probe images as well as data filtering.
+->   942: From the Home Screen, select New Facial Recognition Session from the left sidebar.
+     943: A new Facial Recognition Session screen will be displayed. You may upload a single JPEG image file or
+     944: you may extract a frame from a video file to search on.
+     945: Upload Single Image File
 
 Searching for "What is the difference between Lineups and Investigations?"
 
-     943: modified  within a specified date and time. Use the date/time field to specify a date/time range
-     944: or use a custom range .
-     945:  Identifier : find s lineups and investigations by the unique number that has been automatically
-->   946: assigned to that lineup or investigation. Note that this number is preassigned.
-     947:  Description:  finds lineups and investigations by the description given to that lineup or
-     948: investig ation.
-     949:  User Created:  finds lineups and investigations by the user who created it.
+     623: modified within a specified date and time. Use the date/time field to specify a date/time range
+     624: or use a custom range.
+     625:  Identifier: finds lineups and investigations by the unique number that has been automatically
+->   626: assigned to that lineup or investigation. Note that this number is preassigned.
+     627:  Description: finds lineups and investigations by the description given to that lineup or
+     628: investigation.
+     629:  User Created: finds lineups and investigations by the user who created it.
 
 Searching for "How do I filter my session results?"
 
-    1690: | FACE Plus – Facial Recognition Case Management  66
-    1691: Data Filter Result Row
-->  1692: A Data Filter can be applied during the session. Note that a data filter result row will not appear unless a
-    1693: data filter is added. Once a filter is applied the Data Filter result row will appear.
-    1695: ADD A DATA FILTER
+    1101: | FACE Plus – Facial Recognition Case Management 65
+    1102: DataWorks Plus Digital PhotoManager & Facial Recognition
+    1103: Data Filter Result Row
+->  1104: A Data Filter can be applied during the session. Note that a data filter result row will not appear unless a
+    1105: data filter is added. Once a filter is applied the Data Filter result row will appear.
+    1106: ADD A DATA FILTER
+    1107: To narrow your search results, you may enter additional search criteria such as sex, race, height, and
 
 Searching for "What does Bookmarking an image do?"
 
-      57: Lineup Hover Menu ................................ ................................ ................................ ................................ . 43
-      58: Information  ................................ ................................ ................................ ................................ .........  43
-      59: Linked  ................................ ................................ ................................ ................................ ..................  43
-->    60: Bookmark - Mark Lineup Image as Candidate  ................................ ................................ ....................  44
-      61: Edit Image  ................................ ................................ ................................ ................................ ...........  44
-      62: Remove  ................................ ................................ ................................ ................................ ...............  45
-      63: Filter Search  ................................ ................................ ................................ ................................ ...........  46
+     805: Select the return arrow to return to the main view.
+     806: | New Lineup or Investigation 43
+     807: DataWorks Plus Digital PhotoManager & Facial Recognition
+->   808: Bookmark - Mark Lineup Image as Candidate
+     809: Hover over the image and select Bookmark from the Lineup Hover Menu.
+     810: The bookmarked candidate image will have red outline.
+     811: Edit Image
 
-    1243: DataWorks Plus  Digital PhotoManager & Facial Recognition
-    1245: | New Lineup or Investigation  44
-->  1246: Bookmark - Mark Lineup Image as Candidate
-    1247: Hover over  the image and select Book mark  from the Lineup Hover Menu.
-
-    3111: Search Similar  (Lineup)
-    3112: Clicking the Search Similar  button will take the user into lineup /investigation  mode. This will insert the
-    3113: main mugshot image into a new lineup or investigation and pre -populate “Gallery images” with similar
-->  3114: images that can be used  to build that lineup  or investigation . See  Creating  a Lineup or Investigation ,
-    3115: page 39, for more information on building a lineup or investigation. Build and Save the lineup, or select
-    3116: Cancel to be navigated to the home screen. Note that the Search Similar option will not be available
-    3117: until a mugshot is added to the record.
-
-    3288: delete the layer.
-    3289:  Convert to raster: converts an object  or drawing from a vector (graphic)
-    3290: image  to a raster (pixel) image to allow actions such as rot ate, crop, etc.
-->  3291: Since most vector images do not allow editing they must be turned into a
-    3292: raster image to allow for editing.
-    3293:  Move  >
-    3294: o Up: option moves the active layer up one level.
+     812: Hover over the image and select Edit Image from the Lineup Hover Menu. This will take you to the
 
 Searching for "Why is the search similar option not avaiable?"
 
 Keyword not found: why
 Keyword not found: avaiable
-    3113: main mugshot image into a new lineup or investigation and pre -populate “Gallery images” with similar
-    3114: images that can be used  to build that lineup  or investigation . See  Creating  a Lineup or Investigation ,
-    3115: page 39, for more information on building a lineup or investigation. Build and Save the lineup, or select
-->  3116: Cancel to be navigated to the home screen. Note that the Search Similar option will not be available
-    3117: until a mugshot is added to the record.
+    2136: main mugshot image into a new lineup or investigation and pre-populate “Gallery images” with similar
+    2137: images that can be used to build that lineup or investigation. See Creating a Lineup or Investigation,
+    2138: page 39, for more information on building a lineup or investigation. Build and Save the lineup, or select
+->  2139: Cancel to be navigated to the home screen. Note that the Search Similar option will not be available
+    2140: until a mugshot is added to the record.
+    2141: | Add Record 126
+    2142: DataWorks Plus Digital PhotoManager & Facial Recognition
 
 Searching for "Can I add more than 8 images to a lineup?"
 
-    1423: Investigation Mode
-->  1426: Investigation Mode is distinct from the traditional lineup mode in that it allows you to add more than
-    1427: the predetermined number of  images to the photobook and will allow  duplicate records to be added.
-    1428: The mode is differentiated with an aqua -colored background on the “Mode” button in the top right
-    1429: corner. You will have all of the traditional lineup options available in Investigation Mode and be able to
+     915: Investigation Images, with
+     916: Images. Cannot the ability to
+     917: add more. Investigation Mode add more.
+->   918: Investigation Mode is distinct from the traditional lineup mode in that it allows you to add more than
+     919: the predetermined number of images to the photobook and will allow duplicate records to be added.
+     920: The mode is differentiated with an aqua-colored background on the “Mode” button in the top right
+     921: corner. You will have all of the traditional lineup options available in Investigation Mode and be able to
 
 Searching for "Do changes I make in the image editor overwrite the original image?"
 
-    2661: foreground colors.  You can adjust the color using the RGB values or you can double click
-    2662: on the swatch to change it.
-    2663: Zoom  allows you to zoom in and out of the image as necessary by adjusting the slider
-->  2664: position.  Reset Zoom  will return the image to the original size.  Fit in Window  will make
-    2665: the entire imag e visible from the view window.
-    2667: Left Eye  and Right Eye can be used to mark the eye locations. The Cognitec search engine
-
-    2669: eye locations.
-    2670: SAVING
-    2671: When you are finished working with the image click Save/Close  and the changes that you have made to
-->  2672: the image will appear in the lineup. Note that the ch anges are done to a copy of the original image; you
-    2673: cannot alter the original im age. If you want to discard the  changes that you have made to the image
-    2674: click Cancel .
-    2675: POSE CORRECTION AND LIGHT NORMALIZATION
+    1858: eye locations.
+    1859: SAVING
+    1860: When you are finished working with the image click Save/Close and the changes that you have made to
+->  1861: the image will appear in the lineup. Note that the changes are done to a copy of the original image; you
+    1862: cannot alter the original image. If you want to discard the changes that you have made to the image
+    1863: click Cancel.
+    1864: POSE CORRECTION AND LIGHT NORMALIZATION
 
 Searching for "How can I correct the pose of my Mugshot?"
 
-    2647: RGB Balance  allows you to adjust the individual RGB values of an image.
-    2648: Grayscale  allows you to adjust the RGB values for the grayscaled image.
-    2649: Auto -correct Image will automatically correct the image as needed.
-->  2650: Pose Correction allows you to create a 3D model of the face. From the 3D model, you
-    2651: may adjust the 3D model to op timize the pose and lighting of the image, which can then
-    2652: be used to find matching records. For more information, please see ”Pose Correction ” on
-    2653: page 106.
+    1840: RGB Balance allows you to adjust the individual RGB values of an image.
+    1841: Grayscale allows you to adjust the RGB values for the grayscaled image.
+    1842: Auto-correct Image will automatically correct the image as needed.
+->  1843: Pose Correction allows you to create a 3D model of the face. From the 3D model, you
+    1844: may adjust the 3D model to optimize the pose and lighting of the image, which can then
+    1845: be used to find matching records. For more information, please see ”Pose Correction” on
+    1846: page 106.
 
