@@ -97,6 +97,9 @@ const data = [
     "Wrong — incorrect, inaccurate, mistaken, erroneous, improper, unsuitable"
 ];
 
+// is the 1st argument "reverse"?
+const printReverse = process.argv[2] === 'reverse';
+
 const result = {};
 data.forEach(d => {
     const [word, synonyms] = d.split(' — ');
@@ -105,12 +108,17 @@ data.forEach(d => {
 })
 
 // reverse lookup of thesaurus
-const reverse = {};
-Object.keys(result).forEach(word => {
-    result[word].forEach(synonym => {
-        reverse[synonym] = reverse[synonym] || [];
-        reverse[synonym].push(word);
+if (printReverse) {
+    const reverse = {};
+    Object.keys(result).forEach(word => {
+        result[word].forEach(synonym => {
+            reverse[synonym] = reverse[synonym] || [];
+            reverse[synonym].push(word);
+        })
     })
-})
 
-console.log(JSON.stringify(reverse, null, 2));
+    console.log(JSON.stringify(reverse, null, 2));
+}
+else {
+    console.log(JSON.stringify(result, null, 2));
+}
