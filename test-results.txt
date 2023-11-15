@@ -1,107 +1,103 @@
+do -> make+put
 Searching for "How do I compare a Probe Image to another image?"
 
-    2049: | FACE Plus ΓÇô Facial Recognition Case Management 74
-    2051: Compare
-->  2052: FACE Plus allows you to compare the probe image to one of the search result images. Hover over and
-    2053: select Compare on the result image that you wish to compare to the probe image to.
-    2054: Make sure you have installed Facial Recognition Components for the software to work. (See Installing
-    2055: Facial Recognition Components, page 139.)  If components are installed open the comparison software.
+    2049: This will  Display a grid overlay to assist with image editing
+    2050: Histogram opens the histogram window
+    2051: An image histogram is a type of histogram that acts as a graphical representation of the tonal
+->  2052: distribution in a digital image
+    2053: It plots the number of pixels for each tonal value
+    2054: By looking at the histogram for a specific image a viewer
+    2055: will be able to judge the entire tonal distribution at a glance
 
-    2369: | FACE Plus ΓÇô Facial Recognition Case Management 85
-    2371: Chart Compare
-->  2372: Chart Compare allows you to make annotations and measurements on the probe image and the result
-    2373: image. Hover over Chart Compare on the result image that you wish to compare to the probe image
-    2374: too.
-    2375: If components are installed open the comparison software. (See Installing Facial Recognition
 
+find -> get
+recent -> new
 Searching for "How can I find my recent Facial Recognition Sessions?"
 
-      58: Lineup Search Results ......................................................................................................................... 34
-      59: Narrow Search Results ........................................................................................................................ 35
-      60: Reset the Home Screen ...................................................................................................................... 35
-->    61: Find Facial Recognition Session .............................................................................................................. 36
-      62: Facial Recognition Session Search ...................................................................................................... 36
-      63: Session Search Results ........................................................................................................................ 37
-      64: Narrow Search Results ........................................................................................................................ 38
+      58: Results Screen Overview
+      59: 60 Understanding Result Rows
+      60: Result Row Options
+->    61: 64 Combined Results Row
+      62: Searc h Engine Result Row
+      63: 65 Data Filter Result Row
+      64: Results Hover Menu
 
-     272: Once you have entered your credentials and clicked the Sign In button, the Home Screen will be
-     273: displayed. Several options are available to you from this screen.  On the Home Screen, users will be able
-     274: to see records, lineups, and sessions displayed in the center of the page. Users will be able to see all
-->   275: records and lineups accessed in the system but only their own facial recognition sessions. Users can
-     276: create, retrieve, or edit records, lineups, or facial recognition sessions via the left sidebar, or directly
-     277: from the appropriate flip card. The left sidebar can also be collapsed to maximize screen space. You may
-     278: also use the breadcrumb trail for easy navigation between pages in the process. Click to reset display to
+     272: Change the number of images shown for strategic viewing
+     273: See page 20
+     274: DataWorks Plus  Digital PhotoManager  Facial Recognition
+->   275: 16 Modify the Type of Displayed Results using All  Records  Lineups  Sessions
+     276: You can select which type of search results are displayed o n screen using the All-Records -Lineups - Sessions  button at the top left of the screen
+     277: You can click on these options at any time to change the
+     278: type of activity  you wish to view
 
-    1139: | Finding Records, Lineups, or Facial Recognition Sessions 36
-->  1141: Find Facial Recognition Session
-    1142: In addition to perform facial recognition searches, users can also search and retrieve previously-created
-    1143: facial recognition sessions. This allows users to find specific facial recognition sessions by date and
-    1144: description.
+    1138: This zooming affects only the image at top of the screen not the image preview below
+    1139: The percentage that you are
+    1140: zoomed in will be displayed in the box below the slider
+->  1141: You can also type in the percentage that you want to zoom in the box
+    1142: DataWorks Plus  Digital PhotoManager  Facial Recognition
+    1143: FACE Plus  Facial Recognition Case Management  77 Face Compare Screen  Top Panel Options
+    1144: To Size  This button displays the image so that it fits in the preview window
 
-    1639: FACE Plus ΓÇô Facial Recognition Case Management
-    1640: FACE Plus provides accurate, reliable identification with the latest and greatest in facial recognition
-    1641: matching accuracy and tools to manipulate images and compare images.
-->  1642: Starting a New Facial Recognition Session
-    1643: Users can perform facial recognition searches using probe images as well as data filtering.
-    1645: From the Home Screen, select New Facial Recognition Session from the left sidebar.
+    1639: Lasso Tool  allows you to make a free -hand selection
+    1640: Magic Wand Tool  automatically selects an area that you click
+    1641: Paint Bucket  allows you to dump paint over a selected area
+->  1642: If no area is selected it will paint over the entire image
+    1643: Sharpen Image  This allows you to sharpen the image
+    1644: Sharpening seem s to bring out image detail that wasnt there before by emphasizing the edges of an image
+    1645: It increases
 
 Searching for "What is the difference between Lineups and Investigations?"
 
-    1063: modified within a specified date and time. Use the date/time field to specify a date/time range
-    1064: or use a custom range.
-    1065: ∩é╖ Identifier: finds lineups and investigations by the unique number that has been automatically
-->  1066: assigned to that lineup or investigation. Note that this number is preassigned.
-    1067: ∩é╖ Description: finds lineups and investigations by the description given to that lineup or
-    1068: investigation.
-    1069: ∩é╖ User Created: finds lineups and investigations by the user who created it.
+    1063: DataWorks Plus  Digital PhotoManager  Facial Recognition
+    1064: FACE Plus  Facial Recognition Case Management  72 Bookmark
+    1065: Hover over  and select  Bookmark  to Mark an indiv idual for Review
+->  1066: This image will then be included in the Combined Results  Marked for Review list
+    1067: Combined Results automatically default to Above Minimum Threshold
+    1068: Use the Combined Results drop down list to view all Marked for Review images
+    1069: Remove the result from Marked for Review by hovering over the image and selecting remove
 
+do -> make+put
 Searching for "How do I filter my session results?"
 
-    1891: | FACE Plus ΓÇô Facial Recognition Case Management 66
-    1893: Data Filter Result Row
-->  1894: A Data Filter can be applied during the session. Note that a data filter result row will not appear unless a
-    1895: data filter is added. Once a filter is applied the Data Filter result row will appear.
-    1897: ADD A DATA FILTER
+    1891: Recent Photos are also displayed in the middle of t he screen in Views  under the Photos tab with the Image Field type of the photo
+    1892: DataWorks Plus  Digital PhotoManager  Facial Recognition
+    1893: Add Record  121 Record Overview
+->  1894: Users may view detailed record information at any time within the application
+    1895: The record display screen will show any images and data from the database for the currently -selected record
+    1896: of the Record Display screen has been shown in the following image
+    1897: Options  in the top right corner allow you to view data or photos save delete c ancel find records similar to the one currently displayed Sea rch Similar print in a variety  of formats and reports  and Add
 
+do -> make+put
 Searching for "What does Bookmarking an image do?"
 
-    1391: | New Lineup or Investigation 44
-->  1393: Bookmark - Mark Lineup Image as Candidate
-    1394: Hover over the image and select Bookmark from the Lineup Hover Menu.
+    1390: the mouse button and drag to create the note box
+    1391: Type the desired text in the box
+    1392: Right click for note properties Name Fill Foreground Color Background Color Font
+->  1393: and Text this option lets you change the text that is shown  in the note
+    1394: DataWorks Plus  Digital PhotoManager  Facial Recognition
+    1395: FACE Plus  Facial Recognition Case Management  90 Annotation  Toolbar
+    1396: Point  allows you to draw a crosshair point
 
 Searching for "Why is the search similar option not avaiable?"
 
 Keyword not found: why
 Keyword not found: avaiable
-    3500: main mugshot image into a new lineup or investigation and pre-populate ΓÇ£Gallery imagesΓÇ¥ with similar
-    3501: images that can be used to build that lineup or investigation. See Creating a Lineup or Investigation,
-    3502: page 39, for more information on building a lineup or investigation. Build and Save the lineup, or select
-->  3503: Cancel to be navigated to the home screen. Note that the Search Similar option will not be available
-    3504: until a mugshot is added to the record.
 
 Searching for "Can I add more than 8 images to a lineup?"
 
-    1592: Investigation Mode
-->  1595: Investigation  Mode  is  distinct  from  the  traditional  lineup  mode  in  that  it allows  you  to  add  more  than
-    1596: the  predetermined  number  of images  to  the  photobook and  will  allow duplicate  records  to  be  added.
-    1597: The  mode  is  differentiated  with  an  aqua-colored background on the ΓÇ£ModeΓÇ¥ button in the top right
-    1598: corner. You will have all of the traditional lineup options available in Investigation Mode and be able to
+    1592: Probe Comments allows you to add comments to the selected probe
+    1593: Edit ReplaceAdd Simple  Image Editor If needed i mages can be edited to provide even more accurate results by using basic image editing
+    1594: Click either Edit and Add Simple  or Edit and Replace  Simple
+->  1595: The Image Editing Screen will be displayed
+    1596: You can preview and edit the image you have selected to upload
+    1597: Several options are available that allow you to adjust the image as ne eded
+    1598: DataWorks Plus  Digital PhotoManager  Facial Recognition
 
+do -> make+put
 Searching for "Do changes I make in the image editor overwrite the original image?"
 
-    3008: eye locations.
-    3009: SAVING
-    3010: When you are finished working with the image click Save/Close and the changes that you have made to
-->  3011: the image will appear in the lineup. Note that the changes are done to a copy of the original image; you
-    3012: cannot alter the original image. If you want to discard the changes that you have made to the image
-    3013: click Cancel.
-    3014: POSE CORRECTION AND LIG HT NORMALIZ ATION
 
+correct -> right
 Searching for "How can I correct the pose of my Mugshot?"
 
-    2983: Auto-correct Image will automatically correct the image as needed.
-->  2985: Pose Correction allows you to create a 3D model of the face. From the 3D model, you
-    2986: may adjust the 3D model to optimize the pose and lighting of the image, which can then
-    2987: be used to find matching records. For more information, please see ΓÇ¥Pose CorrectionΓÇ¥ on
-    2988: page 106.
 
