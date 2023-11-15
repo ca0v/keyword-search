@@ -99,7 +99,7 @@ BERT's pre-trained weights can be fine-tuned for various downstream tasks such a
 
 - Iterative Improvement: Continuously monitor and iterate on your model. Fine-tuning may involve multiple iterations to achieve the desired search result improvements.
 
-##### Model Selection
+##### Model Selection (asymmetric)
 
 We would want to select an `asymmetric semantic search` model.  This model should be able to take keywords and return a phrase.  Here are some [Asymmetric models](https://www.sbert.net/docs/pretrained-models/msmarco-v3.html).  It is also critical that the vector-space be 1B or less to avoid expensive compute.
 
@@ -124,6 +124,28 @@ However, it's crucial to perform iterative experiments and validation to determi
 Moreover, techniques like data augmentation, transfer learning, or leveraging pre-trained models with domain-specific adaptations can sometimes mitigate the need for extensive amounts of data.
 
 In essence, while there's no fixed minimal amount of data universally applicable for all tasks, starting with a smaller dataset and gradually increasing the size while evaluating the model's performance is a practical approach to determine the optimal data size for fine-tuning BERT for search tasks.
+
+##### Model Selection (symmetric)
+
+Give the above training requirements and that fact that we have a single PDF document, we should probably rethink our approach.  
+
+A `symmetric semantic search` model should be able to take a phrase and return a phrase.  In our case, we can accept a query and return a canned question and answer.
+
+This approach targets a well-defined space, the canned questions.
+
+"How do I modify a picture?" 
+    -> "How to update a mugshot?" 
+        -> "To update a mugshot...".  
+        
+This would achieve the following:document:
+    * Quote canned questions and answers
+    * Link to original documentation
+    * Conversational
+    * No hallucinations
+
+##### Building Q&A
+
+The first step is to build a Q&A dataset.  This can be done by scraping the documentation.  We can use the following [Q&A dataset](
 
 # References
 We can use [Sentence Transformers](https://github.com/UKPLab/sentence-transformers/tree/master/examples) to rephrase the question to match an existing question (and hence find a suitable answer).

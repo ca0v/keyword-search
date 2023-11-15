@@ -9,27 +9,47 @@ This script outputs for various queries the top 5 most similar sentences in the 
 from sentence_transformers import SentenceTransformer, util
 import torch
 
+# The all-MiniLM-L6-v2 model is a good model for semantic search
+# all => trained on all datasets
+# MiniLM => smaller version of BERT
+# L6 => 6 layers
+# v2 => second version of the model
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
-# Corpus with example sentences
-corpus = ['A man is eating food.',
-          'A man is eating a piece of bread.',
-          'The girl is carrying a baby.',
-          'A man is riding a horse.',
-          'A woman is playing violin.',
-          'Two men pushed carts through the woods.',
-          'A man is riding a white horse on an enclosed ground.',
-          'A monkey is playing drums.',
-          'A cheetah is running behind its prey.'
-          ]
+# A corpus is a collection of documents
+# in this case, the corpus is a list of baseline questions
+
+corpus = '''
+How do I compare a Probe Image to another image?
+How can I find my recent Facial Recognition Sessions?
+What is the difference between Lineups and Investigations?
+How do I filter my session results?
+What does Bookmarking an image do?
+Why is the search similar option not available?
+Can I add more than 8 images to a lineup?
+Do changes I make in the image editor overwrite the original image?
+How can I correct the pose of my Mugshot?
+'''.strip().split('\n')
+    
 corpus_embeddings = embedder.encode(corpus, convert_to_tensor=True)
 
-# Query sentences:
-queries = ['A man is eating pasta.', 'Someone in a gorilla costume is playing a set of drums.', 'A cheetah chases prey on across a field.']
+# queries are questions that the user might ask
+# we would like these questions to map to a key question so we can provide a canned response
+queries = '''
+What is a probe image?
+How can I find my recent sessions?
+Are lineups and investigations different?
+How to I only see a subset of my session?
+What is bookmarking used for?
+Why can't I click on the search similar button?
+How do I add more images to a lineup?
+How can I prevent the original image from being modified?
+How to I fix my mugshot pose?
+'''.strip().split('\n')
 
 
 # Find the closest 5 sentences of the corpus for each query sentence based on cosine similarity
-top_k = min(5, len(corpus))
+top_k = min(1, len(corpus))
 for query in queries:
     query_embedding = embedder.encode(query, convert_to_tensor=True)
 
@@ -37,12 +57,12 @@ for query in queries:
     cos_scores = util.cos_sim(query_embedding, corpus_embeddings)[0]
     top_results = torch.topk(cos_scores, k=top_k)
 
-    print("\n\n======================\n\n")
     print("Query:", query)
-    print("\nTop 5 most similar sentences in corpus:")
 
     for score, idx in zip(top_results[0], top_results[1]):
-        print(corpus[idx], "(Score: {:.4f})".format(score))
+        print("Index:", corpus[idx], "(Score: {:.4f})".format(score))
+
+    print()
 
     """
     # Alternatively, we can also use util.semantic_search to perform cosine similarty + topk
