@@ -1,27 +1,33 @@
 Query: What is a probe image?
 Index: How do I compare a Probe Image to another image? (Score: 0.6649)
 
-Query: How can I find my recent sessions?
-Index: How can I find my recent Facial Recognition Sessions? (Score: 0.6924)
+Query: How to find past sessions?
+Index: How can I find my recent Facial Recognition Sessions? (Score: 0.6326)
 
 Query: Are lineups and investigations different?
 Index: What is the difference between Lineups and Investigations? (Score: 0.9449)
 
-Query: How to I only see a subset of my session?
-Index: How do I filter my session results? (Score: 0.6615)
+Query: How to see a subset of my session?
+Index: How do I filter my session results? (Score: 0.6672)
 
-Query: What is bookmarking used for?
-Index: What does Bookmarking an image do? (Score: 0.7828)
+Query: What is bookmarking for?
+Index: What does Bookmarking an image do? (Score: 0.7890)
 
-Query: Why can't I click on the search similar button?
-Index: Why is the search similar option not available? (Score: 0.7258)
+Query: Why doesn't clicking the search button do anything?
+Index: Why is the search similar option not available? (Score: 0.5474)
 
-Query: How do I add more images to a lineup?
-Index: Can I add more than 8 images to a lineup? (Score: 0.8623)
+Query: Can more images be added to a lineup?
+Index: Can I add more than 8 images to a lineup? (Score: 0.9230)
 
 Query: How can I prevent the original image from being modified?
 Index: Do changes I make in the image editor overwrite the original image? (Score: 0.6061)
 
+Query: How to protect the original image from being modified?
+Index: Do changes I make in the image editor overwrite the original image? (Score: 0.5486)
+
 Query: How to I fix my mugshot pose?
 Index: How can I correct the pose of my Mugshot? (Score: 0.9292)
+
+Query: Can mugshot poses be modified?
+Index: How can I correct the pose of my Mugshot? (Score: 0.7502)
 

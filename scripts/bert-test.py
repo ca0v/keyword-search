@@ -37,14 +37,16 @@ corpus_embeddings = embedder.encode(corpus, convert_to_tensor=True)
 # we would like these questions to map to a key question so we can provide a canned response
 queries = '''
 What is a probe image?
-How can I find my recent sessions?
+How to find past sessions?
 Are lineups and investigations different?
-How to I only see a subset of my session?
-What is bookmarking used for?
-Why can't I click on the search similar button?
-How do I add more images to a lineup?
+How to see a subset of my session?
+What is bookmarking for?
+Why doesn't clicking the search button do anything?
+Can more images be added to a lineup?
 How can I prevent the original image from being modified?
+How to protect the original image from being modified?
 How to I fix my mugshot pose?
+Can mugshot poses be modified?
 '''.strip().split('\n')
 
 
