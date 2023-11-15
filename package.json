@@ -5,8 +5,8 @@
   "main": "keyword-search.js",
   "scripts": {
     "generate-stemmer": "python3 ./scripts/stemmer.py ./data/test2.txt > ./data/stemmer.txt",
-    "generate-thesaurus:reverse": "node ./thesaurus.js reverse > ./data/reverse-thesaurus.json",
-    "generate-thesaurus": "node ./thesaurus.js > ./data/thesaurus.json"
+    "generate-thesaurus:reverse": "node ./scripts/thesaurus.js reverse > ./data/reverse-thesaurus.json",
+    "generate-thesaurus": "node ./scripts/thesaurus.js > ./data/thesaurus.json"
   },
   "keywords": [],
   "author": "",
