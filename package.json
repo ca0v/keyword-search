@@ -4,6 +4,7 @@
   "description": "This is a keyword-search proof-of-concept utility that builds an index for a single text document. Users can provide a search phrase, and those words will be searched for in the document. The best match(es) will be shown to the user, along with the line number(s) where the match(es) occurred.",
   "main": "keyword-search.js",
   "scripts": {
+    "bert:test": "python3 ./scripts/bert-test.py ./bert-test-results.txt",
     "generate-stemmer": "python3 ./scripts/stemmer.py ./data/test2.txt > ./data/stemmer.txt",
     "generate-thesaurus:reverse": "node ./scripts/thesaurus.js reverse > ./data/reverse-thesaurus.json",
     "generate-thesaurus": "node ./scripts/thesaurus.js > ./data/thesaurus.json"
