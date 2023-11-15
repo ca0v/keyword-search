@@ -4,7 +4,7 @@
   "description": "This is a keyword-search proof-of-concept utility that builds an index for a single text document. Users can provide a search phrase, and those words will be searched for in the document. The best match(es) will be shown to the user, along with the line number(s) where the match(es) occurred.",
   "main": "keyword-search.js",
   "scripts": {
-    "pdf-to-text": "python3 ./scripts/pdf-to-text.py ./data/test.pdf > ./data/test.pdf.txt",
+    "pdf-to-text": "python3 ./scripts/pdf-to-text.py ./data/test.pdf > ./data/test2.txt",
     "text-to-facts": "python3 ./scripts/text-to-facts.py ./data/test.pdf.txt > ./data/test2.txt",
     "bert:test": "python3 ./scripts/bert-test.py > ./bert-test-results.txt",
     "keyword:test": "bash ./test.sh > ./test-results.txt",

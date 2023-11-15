@@ -27,7 +27,6 @@ function cleanWord(word) {
     if (thesaurus[word]) {
         const priorWord = word;
         word = thesaurus[word].join("+");
-        console.log(`${priorWord} -> ${word}`);
     }
     return word;
 }
@@ -35,7 +34,7 @@ function cleanWord(word) {
 
 // does indexFilePath exist?
 const indexFilePath = path.join(dataDir, `${fileName}.json`);
-if (!fs.existsSync(indexFilePath)) {
+if (true || !fs.existsSync(indexFilePath)) {
 
     // 2. build a keyword search index
     const index = buildIndex(lines);
